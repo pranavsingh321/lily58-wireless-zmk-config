@@ -9,6 +9,106 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    macros {
+        pdb: pdb {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp I &kp M &kp P &kp O &kp R &kp T &kp SPACE &kp P &kp D &kp B &kp SEMI &kp P &kp D &kp B &kp DOT &kp S &kp E &kp T &kp UNDER &kp T &kp R &kp A &kp C &kp E &kp LPAR &kp RPAR>;
+            label = "PDB";
+        };
+
+        gmail: gmail {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(T)>;
+            label = "GMAIL";
+        };
+
+        tmuxnew: tmuxnew {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RC(B) &kp RC(PERCENT)>;
+            label = "TMUXNEW";
+        };
+
+        tmuxv: tmuxv {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(B) &kp LCTRL &kp DQT>;
+            label = "TMUXV";
+        };
+
+        tleft: tleft {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(B) &kp LC(LEFT)>;
+            label = "TLEFT";
+        };
+
+        tright: tright {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(B) &kp LC(RIGHT)>;
+            label = "TRIGHT";
+        };
+
+        vq: vq {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp ESCAPE &kp COLON &kp Q &kp ENTER>;
+            label = "VQ";
+        };
+
+        vw: vw {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp ESCAPE &kp COLON &kp W &kp ENTER>;
+            label = "VW";
+        };
+
+        vx: vx {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp ESCAPE &kp COLON &kp X &kp ENTER>;
+            label = "VX";
+        };
+
+        tzoom: tzoom {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(B) &kp LC(Z)>;
+            label = "TZOOM";
+        };
+
+        nvm: nvm {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RC(RS(V)) &kp RCTRL &kp LEFT_SHIFT>;
+            label = "NVM";
+        };
+
+        cn: cn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RC(RS(C)) &kp RC(LEFT_SHIFT)>;
+            label = "CN";
+        };
+
+        tup: tup {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RC(B) &kp RC(UP_ARROW)>;
+            label = "TUP";
+        };
+
+        tdown: tdown {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RC(B) &kp RC(DOWN_ARROW)>;
+            label = "TDOWN";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -62,11 +162,11 @@
 
             label = "Raise";
             bindings = <
-&trans     &trans  &trans  &trans   &trans   &trans                      &trans       &trans     &trans        &trans     &trans      &trans
-&kp GRAVE  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                      &kp N6       &kp N7     &kp UP_ARROW  &kp N9     &kp N0      &trans
-&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp CAPS                    &kp BSPC     &kp LEFT   &kp DOWN      &kp RIGHT  &kp DELETE  &trans
-&kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12   &trans    &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL     &kp LBKT   &kp RBKT    &kp BSLH
-                           &trans   &trans   &trans    &trans    &trans  &trans       &trans     &trans
+&kp ESC    &kp     &kp     &kp      &tmuxv   &tmuxnew              &kp          &kp        &pdb          &kp        &kp         &kp
+&kp GRAVE  &vq     &vw     &tup     &kp N4   &kp N5                &kp N6       &kp N7     &kp UP_ARROW  &kp N9     &kp N0      &kp
+&kp F1     &kp F2  &tleft  &tdown   &tright  &kp CAPS              &kp BSPC     &kp LEFT   &kp DOWN      &kp RIGHT  &kp DELETE  &kp
+&kp F7     &tzoom  &vx     &kp F10  &kp F11  &kp F12   &kp    &kp  &kp KP_PLUS  &kp MINUS  &kp EQUAL     &kp LBKT   &kp RBKT    &kp BSLH
+                           &kp      &kp      &kp       &kp    &kp  &kp          &kp        &kp
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
