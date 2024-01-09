@@ -35,21 +35,21 @@
         tmuxv: tmuxv {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(B) &kp LCTRL &kp DQT>;
+            bindings = <&kp LC(B) &kp LC(DOUBLE_QUOTES)>;
             label = "TMUXV";
         };
 
         tleft: tleft {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(B) &kp LEFT>;
+            bindings = <&kp LC(LEFT_ARROW)>;
             label = "TLEFT";
         };
 
         tright: tright {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(B) &kp RIGHT>;
+            bindings = <&kp LC(RIGHT)>;
             label = "TRIGHT";
         };
 
@@ -98,14 +98,14 @@
         tup: tup {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RC(B) &kp UP_ARROW>;
+            bindings = <&kp RC(UP_ARROW)>;
             label = "TUP";
         };
 
         tdown: tdown {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RC(B) &kp DOWN_ARROW>;
+            bindings = <&kp RC(DOWN_ARROW)>;
             label = "TDOWN";
         };
     };
