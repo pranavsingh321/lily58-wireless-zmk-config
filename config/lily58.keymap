@@ -42,14 +42,14 @@
         tleft: tleft {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(B) &kp LC(LEFT)>;
+            bindings = <&kp LC(B) &kp LEFT>;
             label = "TLEFT";
         };
 
         tright: tright {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(B) &kp LC(RIGHT)>;
+            bindings = <&kp LC(B) &kp RIGHT>;
             label = "TRIGHT";
         };
 
@@ -77,7 +77,7 @@
         tzoom: tzoom {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(B) &kp LC(Z)>;
+            bindings = <&kp LC(B) &kp Z>;
             label = "TZOOM";
         };
 
@@ -98,14 +98,14 @@
         tup: tup {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RC(B) &kp RC(UP_ARROW)>;
+            bindings = <&kp RC(B) &kp UP_ARROW>;
             label = "TUP";
         };
 
         tdown: tdown {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RC(B) &kp RC(DOWN_ARROW)>;
+            bindings = <&kp RC(B) &kp DOWN_ARROW>;
             label = "TDOWN";
         };
     };
