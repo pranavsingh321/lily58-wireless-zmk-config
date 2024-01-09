@@ -88,11 +88,11 @@
             label = "NVM";
         };
 
-        cn: cn {
+        cc: cc {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RC(RS(C)) &kp RC(LEFT_SHIFT)>;
-            label = "CN";
+            bindings = <&kp RC(RS(C))>;
+            label = "CC";
         };
 
         tup: tup {
@@ -107,6 +107,13 @@
             #binding-cells = <0>;
             bindings = <&kp RC(DOWN_ARROW)>;
             label = "TDOWN";
+        };
+
+        cv: cv {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RC(RS(V))>;
+            label = "CV";
         };
     };
 
