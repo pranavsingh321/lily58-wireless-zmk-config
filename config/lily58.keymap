@@ -28,14 +28,14 @@
         tmuxnew: tmuxnew {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RC(B) &kp RC(PERCENT)>;
+            bindings = <&kp RC(B) &kp PERCENT>;
             label = "TMUXNEW";
         };
 
         tmuxv: tmuxv {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(B) &kp LC(DOUBLE_QUOTES)>;
+            bindings = <&kp LC(B) &kp DOUBLE_QUOTES>;
             label = "TMUXV";
         };
 
