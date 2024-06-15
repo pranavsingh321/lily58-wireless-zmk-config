@@ -56,21 +56,21 @@
         vq: vq {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp ESCAPE &kp COLON &kp Q &kp ENTER>;
+            bindings = <&kp ESCAPE &dly 100 &kp COLON &kp Q &kp ENTER>;
             label = "VQ";
         };
 
         vw: vw {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp ESCAPE &kp COLON &kp W &kp ENTER>;
+            bindings = <&kp ESCAPE &dly 100 &kp COLON &kp W &kp ENTER>;
             label = "VW";
         };
 
         vx: vx {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp ESCAPE &kp COLON &kp X &kp ENTER>;
+            bindings = <&kp ESCAPE &dly 100 &kp COLON &kp X &kp ENTER>;
             label = "VX";
         };
 
