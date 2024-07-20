@@ -11,13 +11,6 @@
 
 / {
     macros {
-        pdb: pdb {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp I &kp M &kp P &kp O &kp R &kp T &kp SPACE &kp P &kp D &kp B &kp SEMI &kp P &kp D &kp B &kp DOT &kp S &kp E &kp T &kp UNDER &kp T &kp R &kp A &kp C &kp E &kp LPAR &kp RPAR>;
-            label = "PDB";
-        };
-
         gmail: gmail {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -136,6 +129,13 @@
             bindings = <&kp RC(B) &kp RIGHT_BRACKET>;
             label = "TPASTE";
         };
+
+        breakpoint: breakpoint {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp B &kp R &kp E &kp A &kp K &kp P &kp O &kp I &kp N &kp T &kp LPAR &kp RPAR>;
+            label = "BREAKPOINT";
+        };
     };
 
     keymap {
@@ -151,11 +151,11 @@
 
             label = "Base";
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3        &kp N4     &kp N5                         &kp N6  &kp N7    &kp N8     &kp N9   &kp N0         &kp GRAVE
-&kp CLCK   &kp Q   &kp W   &kp F         &kp P      &kp G                          &kp J   &kp L     &kp U      &kp Y    &kp SEMICOLON  &kp MINUS
-&kp TAB    &kp A   &kp R   &kp S         &kp T      &kp D                          &kp H   &kp N     &kp E      &kp I    &kp O          &kp SQT
-&kp LSHFT  &kp Z   &kp X   &kp C         &kp V      &kp B   &kp LBKT     &kp RBKT  &kp K   &kp M     &kp COMMA  &kp DOT  &kp FSLH       &kp RSHFT
-                           &kp LEFT_GUI  &kp LCTRL  &mo 1   &kp SPACE    &kp RET   &mo 2   &kp RALT  &kp LGUI
+&kp ESC    &kp N1  &kp N2  &kp N3        &kp N4     &kp N5                              &kp N6  &kp N7    &kp N8     &kp N9   &kp N0         &kp GRAVE
+&kp CLCK   &kp Q   &kp W   &kp F         &kp P      &kp G                               &kp J   &kp L     &kp U      &kp Y    &kp SEMICOLON  &kp MINUS
+&kp TAB    &kp A   &kp R   &kp S         &kp T      &kp D                               &kp H   &kp N     &kp E      &kp I    &kp O          &kp SQT
+&kp LSHFT  &kp Z   &kp X   &kp C         &kp V      &kp B   &breakpoint    &breakpoint  &kp K   &kp M     &kp COMMA  &kp DOT  &kp FSLH       &kp RSHFT
+                           &kp LEFT_GUI  &kp LCTRL  &mo 1   &kp SPACE      &kp RET      &mo 2   &kp RALT  &kp LGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
