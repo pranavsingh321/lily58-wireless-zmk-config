@@ -191,13 +191,32 @@
             label = "Raise";
             bindings = <
 &kp F1    &kp F2           &kp F3  &kp F4    &kp F5     &kp F6                                  &kp F7    &kp F8        &kp F9        &kp F10    &kp F11     &kp F12
-&none     &vq              &vw     &tup      &tmuxv     &tmuxnew                                &kp N6    &kp N7        &kp UP_ARROW  &kp N9     &kp N0      &kp F11
-&none     &kp EXCLAMATION  &tleft  &tdown    &tright    &none                                   &kp BSPC  &kp LEFT      &kp DOWN      &kp RIGHT  &kp DELETE  &kp F12
+&none     &vq              &vw     &tup      &tmuxv     &tmuxnew                                &kp N6    &kp N7        &kp UP_ARROW  &kp N9     &kp N0      &none
+&none     &kp EXCLAMATION  &tleft  &tdown    &tright    &none                                   &kp BSPC  &kp LEFT      &kp DOWN      &kp RIGHT  &kp DELETE  &none
 &kp CAPS  &tzoom           &vx     &cc       &cv        &tbegin   &kp PAGE_UP    &kp PAGE_DOWN  &tmove    &tpaste       &kp EQUAL     &kp LBKT   &kp RBKT    &kp BSLH
                                    &kp LALT  &kp LCTRL  &kp LGUI  &kp RALT       &kp SPACE      &kp RALT  &kp RG(RALT)  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+            >;
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        numbers {
+            if-layers = <1 2>;
+            then-layer = <3>;
         };
     };
 };
