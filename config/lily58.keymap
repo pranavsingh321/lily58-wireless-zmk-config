@@ -155,10 +155,10 @@
 
             label = "Base";
             bindings = <
-&kp ESC    &kp N1      &kp N2          &kp N3        &kp N4            &kp N5                              &kp N6  &kp N7           &kp N8       &kp N9           &kp N0         &kp GRAVE
-&kp CLCK   &kp Q       &kp W           &kp F         &kp P             &kp B                               &kp J   &kp L            &kp U        &kp Y            &kp SEMICOLON  &kp MINUS
-&kp TAB    &mt CAPS A  &mt LEFT_ALT R  &mt LCTRL S   &mt RIGHT_META T  &kp G                               &kp M   &mt LEFT_META N  &mt RCTRL E  &mt RIGHT_ALT I  &mt CAPS O     &kp SQT
-&kp LSHFT  &kp Z       &kp X           &kp C         &kp D             &kp V   &breakpoint    &breakpoint  &kp K   &kp H            &kp COMMA    &kp DOT          &kp FSLH       &kp RSHFT
+&kp ESC    &kp N1      &kp N2          &kp N3        &kp N4            &kp N5                              &kp N6  &kp N7           &kp N8              &kp N9           &kp N0         &kp GRAVE
+&kp CLCK   &kp Q       &kp W           &kp F         &kp P             &kp B                               &kp J   &kp L            &kp U               &kp Y            &kp SEMICOLON  &kp MINUS
+&kp TAB    &mt CAPS A  &mt LEFT_ALT R  &mt LCTRL S   &mt RIGHT_META T  &kp G                               &kp M   &mt LEFT_META N  &mt LEFT_CONTROL E  &mt RIGHT_ALT I  &mt CAPS O     &kp SQT
+&kp LSHFT  &kp Z       &kp X           &kp C         &kp D             &kp V   &breakpoint    &breakpoint  &kp K   &kp H            &kp COMMA           &kp DOT          &kp FSLH       &kp RSHFT
                                        &kp LEFT_GUI  &kp LCTRL         &mo 1   &kp SPACE      &kp RET      &mo 2   &kp RALT         &kp LGUI
             >;
 
