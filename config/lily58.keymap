@@ -141,1068 +141,1491 @@
             bindings = <&kp B &kp R &kp E &kp A &kp K &kp P &kp O &kp I &kp N &kp T &kp LPAR &kp RPAR>;
             label = "BREAKPOINT";
         };
-   about: about {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp A &kp B &kp O &kp U &kp T>;
-        label = "ABOUT";
-    };
-
-    above: above {
-        bindings = <&kp A &kp B &kp O &kp V &kp E>;
-        label = "ABOVE";
-    };
-
-    after: after {
-        bindings = <&kp A &kp F &kp T &kp E &kp R>;
-        label = "AFTER";
-    };
-
-    again: again {
-        bindings = <&kp A &kp G &kp A &kp I &kp N>;
-        label = "AGAIN";
-    };
-
-    along: along {
-        bindings = <&kp A &kp L &kp O &kp N &kp G>;
-        label = "ALONG";
-    };
-
-    also: also {
-        bindings = <&kp A &kp L &kp S &kp O>;
-        label = "ALSO";
-    };
-
-    always: always {
-        bindings = <&kp A &kp L &kp W &kp A &kp Y &kp S>;
-        label = "ALWAYS";
-    };
-
-    animal: animal {
-        bindings = <&kp A &kp N &kp I &kp M &kp A &kp L>;
-        label = "ANIMAL";
-    };
-
-    another: another {
-        bindings = <&kp A &kp N &kp O &kp T &kp H &kp E &kp R>;
-        label = "ANOTHER";
-    };
-
-    answer: answer {
-        bindings = <&kp A &kp N &kp S &kp W &kp E &kp R>;
-        label = "ANSWER";
-    };
-
-    around: around {
-        bindings = <&kp A &kp R &kp O &kp U &kp N &kp D>;
-        label = "AROUND";
-    };
-
-    ask: ask {
-        bindings = <&kp A &kp S &kp K>;
-        label = "ASK";
-    };
-
-    away: away {
-        bindings = <&kp A &kp W &kp A &kp Y>;
-        label = "AWAY";
-    };
-
-    because: because {
-        bindings = <&kp B &kp E &kp C &kp A &kp U &kp S &kp E>;
-        label = "BECAUSE";
-    };
-
-    before: before {
-        bindings = <&kp B &kp E &kp F &kp O &kp R &kp E>;
-        label = "BEFORE";
-    };
-
-    began: began {
-        bindings = <&kp B &kp E &kp G &kp A &kp N>;
-        label = "BEGAN";
-    };
-
-    begin: begin {
-        bindings = <&kp B &kp E &kp G &kp I &kp N>;
-        label = "BEGIN";
-    };
-
-    being: being {
-        bindings = <&kp B &kp E &kp I &kp N &kp G>;
-        label = "BEING";
-    };
-
-    below: below {
-        bindings = <&kp B &kp E &kp L &kp O &kp W>;
-        label = "BELOW";
-    };
-
-    between: between {
-        bindings = <&kp B &kp E &kp T &kp W &kp E &kp E &kp N>;
-        label = "BETWEEN";
-    };
-
-    book: book {
-        bindings = <&kp B &kp O &kp O &kp K>;
-        label = "BOOK";
-    };
-
-    both: both {
-        bindings = <&kp B &kp O &kp T &kp H>;
-        label = "BOTH";
-    };
-
-    carry: carry {
-        bindings = <&kp C &kp A &kp R &kp R &kp Y>;
-        label = "CARRY";
-    };
-
-    change: change {
-        bindings = <&kp C &kp H &kp A &kp N &kp G &kp E>;
-        label = "CHANGE";
-    };
-
-    children: children {
-        bindings = <&kp C &kp H &kp I &kp L &kp D &kp R &kp E &kp N>;
-        label = "CHILDREN";
-    };
-
-    close: close {
-        bindings = <&kp C &kp L &kp O &kp S &kp E>;
-        label = "CLOSE";
-    };
-
-    come: come {
-        bindings = <&kp C &kp O &kp M &kp E>;
-        label = "COME";
-    };
-
-    could: could {
-        bindings = <&kp C &kp O &kp U &kp L &kp D>;
-        label = "COULD";
-    };
-
-    country: country {
-        bindings = <&kp C &kp O &kp U &kp N &kp T &kp R &kp Y>;
-        label = "COUNTRY";
-    };
-
-    different: different {
-        bindings = <&kp D &kp I &kp F &kp F &kp E &kp R &kp E &kp N &kp T>;
-        label = "DIFFERENT";
-    };
-
-    does: does {
-        bindings = <&kp D &kp O &kp E &kp S>;
-        label = "DOES";
-    };
-
-    dont: dont {
-        bindings = <&kp D &kp O &kp N &kp T>;
-        label = "DONT";
-    };
-
-    down: down {
-        bindings = <&kp D &kp O &kp W &kp N>;
-        label = "DOWN";
-    };
-
-    earth: earth {
-        bindings = <&kp E &kp A &kp R &kp T &kp H>;
-        label = "EARTH";
-    };
-
-    enough: enough {
-        bindings = <&kp E &kp N &kp O &kp U &kp G &kp H &kp T>;
-        label = "ENOUGH";
-    };
-
-    even: even {
-        bindings = <&kp E &kp V &kp E &kp N>;
-        label = "EVEN";
-    };
-
-    every: every {
-        bindings = <&kp E &kp V &kp E &kp R &kp Y>;
-        label = "EVERY";
-    };
-
-    example: example {
-        bindings = <&kp E &kp X &kp A &kp M &kp P &kp L &kp E>;
-        label = "EXAMPLE";
-    };
-
-    family: family {
-        bindings = <&kp F &kp A &kp M &kp I &kp L &kp Y>;
-        label = "FAMILY";
-    };
-
-    father: father {
-        bindings = <&kp F &kp A &kp T &kp H &kp E &kp R>;
-        label = "FATHER";
-    };
-
-    feet: feet {
-        bindings = <&kp F &kp E &kp E &kp T>;
-        label = "FEET";
-    };
-
-    find: find {
-        bindings = <&kp F &kp I &kp N &kp D>;
-        label = "FIND";
-    };
-
-    first: first {
-        bindings = <&kp F &kp I &kp R &kp S &kp T>;
-        label = "FIRST";
-    };
-
-    follow: follow {
-        bindings = <&kp F &kp O &kp L &kp L &kp O &kp W>;
-        label = "FOLLOW";
-    };
-
-    food: food {
-        bindings = <&kp F &kp O &kp O &kp D>;
-        label = "FOOD";
-    };
-
-    form: form {
-        bindings = <&kp F &kp O &kp R &kp M>;
-        label = "FORM";
-    };
-
-    found: found {
-        bindings = <&kp F &kp O &kp U &kp N &kp D>;
-        label = "FOUND";
-    };
-
-    four: four {
-        bindings = <&kp F &kp O &kp U &kp R>;
-        label = "FOUR";
-    };
-
-    from: from {
-        bindings = <&kp F &kp R &kp O &kp M>;
-        label = "FROM";
-    };
-
-    girl: girl {
-        bindings = <&kp G &kp I &kp R &kp L &kp O>;
-        label = "GIRL";
-    };
-
-    give: give {
-        bindings = <&kp G &kp I &kp V &kp E>;
-        label = "GIVE";
-    };
-
-    good: good {
-        bindings = <&kp G &kp O &kp O &kp D>;
-        label = "GOOD";
-    };
-
-    great: great {
-        bindings = <&kp G &kp R &kp E &kp A &kp T>;
-        label = "GREAT";
-    };
-
-    group: group {
-        bindings = <&kp G &kp R &kp O &kp U &kp P &kp T>;
-        label = "GROUP";
-    };
-
-    grow: grow {
-        bindings = <&kp G &kp R &kp O &kp W>;
-        label = "GROW";
-    };
-
-    hand: hand {
-        bindings = <&kp H &kp A &kp N &kp D>;
-        label = "HAND";
-    };
-
-    hard: hard {
-        bindings = <&kp H &kp A &kp R &kp D>;
-        label = "HARD";
-    };
-
-    have: have {
-        bindings = <&kp H &kp A &kp V &kp E>;
-        label = "HAVE";
-    };
-
-    head: head {
-        bindings = <&kp H &kp E &kp A &kp D>;
-        label = "HEAD";
-    };
-
-    hear: hear {
-        bindings = <&kp H &kp E &kp A &kp R>;
-        label = "HEAR";
-    };
-
-    hello: hello {
-        bindings = <&kp H &kp E &kp L &kp L &kp O>;
-        label = "HELLO";
-    };
-
-    help: help {
-        bindings = <&kp H &kp E &kp L &kp P>;
-        label = "HELP";
-    };
-
-    high: high {
-        bindings = <&kp H &kp I &kp G &kp H>;
-        label = "HIGH";
-    };
-
-    home: home {
-        bindings = <&kp H &kp O &kp M &kp E>;
-        label = "HOME";
-    };
-
-    house: house {
-        bindings = <&kp H &kp O &kp U &kp S &kp E>;
-        label = "HOUSE";
-    };
-
-    how: how {
-        bindings = <&kp H &kp O &kp W>;
-        label = "HOW";
-    };
-
-    idea: idea {
-        bindings = <&kp I &kp D &kp E &kp A>;
-        label = "IDEA";
-    };
-
-    important: important {
-        bindings = <&kp I &kp M &kp P &kp O &kp R &kp T &kp A &kp N &kp T>;
-        label = "IMPORTANT";
-    };
-
-    into: into {
-        bindings = <&kp I &kp N &kp T &kp O>;
-        label = "INTO";
-    };
-
-    just: just {
-        bindings = <&kp J &kp U &kp S &kp T>;
-        label = "JUST";
-    };
-
-    keep: keep {
-        bindings = <&kp K &kp E &kp E &kp P>;
-        label = "KEEP";
-    };
-
-    kind: kind {
-        bindings = <&kp K &kp I &kp N &kp D>;
-        label = "KIND";
-    };
-
-    know: know {
-        bindings = <&kp K &kp N &kp O &kp W>;
-        label = "KNOW";
-    };
-
-    large: large {
-        bindings = <&kp L &kp A &kp R &kp G &kp E>;
-        label = "LARGE";
-    };
-
-    last: last {
-        bindings = <&kp L &kp A &kp S &kp T>;
-        label = "LAST";
-    };
-
-    later: later {
-        bindings = <&kp L &kp A &kp T &kp E &kp R>;
-        label = "LATER";
-    };
-
-    learn: learn {
-        bindings = <&kp L &kp E &kp A &kp R &kp N>;
-        label = "LEARN";
-    };
-
-    leave: leave {
-        bindings = <&kp L &kp E &kp A &kp V &kp E>;
-        label = "LEAVE";
-    };
-
-    left: left {
-        bindings = <&kp L &kp E &kp F &kp T>;
-        label = "LEFT";
-    };
-
-    letter: letter {
-        bindings = <&kp L &kp E &kp T &kp T &kp E &kp R>;
-        label = "LETTER";
-    };
-
-    life: life {
-        bindings = <&kp L &kp I &kp F &kp E>;
-        label = "LIFE";
-    };
-
-    light: light {
-        bindings = <&kp L &kp I &kp G &kp H &kp T>;
-        label = "LIGHT";
-    };
-
-    like: like {
-        bindings = <&kp L &kp I &kp K &kp E>;
-        label = "LIKE";
-    };
-
-    line: line {
-        bindings = <&kp L &kp I &kp N &kp E>;
-        label = "LINE";
-    };
-
-    list: list {
-        bindings = <&kp L &kp I &kp S &kp T>;
-        label = "LIST";
-    };
-
-    little: little {
-        bindings = <&kp L &kp I &kp T &kp T &kp L &kp E>;
-        label = "LITTLE";
-    };
-
-    live: live {
-        bindings = <&kp L &kp I &kp V &kp E>;
-        label = "LIVE";
-    };
-
-    long: long {
-        bindings = <&kp L &kp O &kp N &kp G>;
-        label = "LONG";
-    };
-
-    look: look {
-        bindings = <&kp L &kp O &kp O &kp K>;
-        label = "LOOK";
-    };
-
-    make: make {
-        bindings = <&kp M &kp A &kp K &kp E>;
-        label = "MAKE";
-    };
-
-    many: many {
-        bindings = <&kp M &kp A &kp N &kp Y>;
-        label = "MANY";
-    };
-
-    mean: mean {
-        bindings = <&kp M &kp E &kp A &kp N>;
-        label = "MEAN";
-    };
-
-    might: might {
-        bindings = <&kp M &kp I &kp G &kp H &kp T>;
-        label = "MIGHT";
-    };
-
-    mile: mile {
-        bindings = <&kp M &kp I &kp L &kp E>;
-        label = "MILE";
-    };
-
-    miss: miss {
-        bindings = <&kp M &kp I &kp S &kp S>;
-        label = "MISS";
-    };
-
-    more: more {
-        bindings = <&kp M &kp O &kp R &kp E>;
-        label = "MORE";
-    };
-
-    most: most {
-        bindings = <&kp M &kp O &kp S &kp T>;
-        label = "MOST";
-    };
-
-    mother: mother {
-        bindings = <&kp M &kp O &kp T &kp H &kp E &kp R>;
-        label = "MOTHER";
-    };
-
-    mountain: mountain {
-        bindings = <&kp M &kp O &kp U &kp N &kp T &kp A &kp I &kp N>;
-        label = "MOUNTAIN";
-    };
-
-    move: move {
-        bindings = <&kp M &kp O &kp V &kp E>;
-        label = "MOVE";
-    };
-
-    much: much {
-        bindings = <&kp M &kp U &kp C &kp H>;
-        label = "MUCH";
-    };
-
-    must: must {
-        bindings = <&kp M &kp U &kp S &kp T>;
-        label = "MUST";
-    };
-
-    name: name {
-        bindings = <&kp N &kp A &kp M &kp E>;
-        label = "NAME";
-    };
-
-    near: near {
-        bindings = <&kp N &kp E &kp A &kp R>;
-        label = "NEAR";
-    };
-
-    need: need {
-        bindings = <&kp N &kp E &kp E &kp D>;
-        label = "NEED";
-    };
-
-    never: never {
-        bindings = <&kp N &kp E &kp V &kp E &kp R>;
-        label = "NEVER";
-    };
-
-    next: next {
-        bindings = <&kp N &kp E &kp X &kp T>;
-        label = "NEXT";
-    };
-
-    night: night {
-        bindings = <&kp N &kp I &kp G &kp H &kp T>;
-        label = "NIGHT";
-    };
-
-    number: number {
-        bindings = <&kp N &kp U &kp M &kp B &kp E &kp R>;
-        label = "NUMBER";
-    };
-
-    often: often {
-        bindings = <&kp O &kp F &kp T &kp E &kp N>;
-        label = "OFTEN";
-    };
-
-    open: open {
-        bindings = <&kp O &kp P &kp E &kp N>;
-        label = "OPEN";
-    };
-
-    other: other {
-        bindings = <&kp O &kp T &kp H &kp E &kp R>;
-        label = "OTHER";
-    };
-
-    over: over {
-        bindings = <&kp O &kp V &kp E &kp R>;
-        label = "OVER";
-    };
-
-    page: page {
-        bindings = <&kp P &kp A &kp G &kp E>;
-        label = "PAGE";
-    };
-
-    paper: paper {
-        bindings = <&kp P &kp A &kp P &kp E &kp R>;
-        label = "PAPER";
-    };
-
-    part: part {
-        bindings = <&kp P &kp A &kp R &kp T>;
-        label = "PART";
-    };
-
-    people: people {
-        bindings = <&kp P &kp E &kp O &kp P &kp L &kp E>;
-        label = "PEOPLE";
-    };
-
-    picture: picture {
-        bindings = <&kp P &kp I &kp C &kp T &kp U &kp R &kp E>;
-        label = "PICTURE";
-    };
-
-    place: place {
-        bindings = <&kp P &kp L &kp A &kp C &kp E>;
-        label = "PLACE";
-    };
-
-    plant: plant {
-        bindings = <&kp P &kp L &kp A &kp N &kp T>;
-        label = "PLANT";
-    };
-
-    play: play {
-        bindings = <&kp P &kp L &kp A &kp Y>;
-        label = "PLAY";
-    };
-
-    point: point {
-        bindings = <&kp P &kp O &kp I &kp N &kp T>;
-        label = "POINT";
-    };
-
-    question: question {
-        bindings = <&kp Q &kp U &kp E &kp S &kp T &kp I &kp O &kp N>;
-        label = "QUESTION";
-    };
-
-    quick: quick {
-        bindings = <&kp Q &kp U &kp I &kp C &kp K>;
-        label = "QUICK";
-    };
-
-    quickly: quickly {
-        bindings = <&kp Q &kp U &kp I &kp C &kp K &kp L &kp Y>;
-        label = "QUICKLY";
-    };
-
-    quite: quite {
-        bindings = <&kp Q &kp U &kp I &kp T &kp E>;
-        label = "QUITE";
-    };
-
-    read: read {
-        bindings = <&kp R &kp E &kp A &kp D>;
-        label = "READ";
-    };
-
-    really: really {
-        bindings = <&kp R &kp E &kp A &kp L &kp L &kp Y>;
-        label = "REALLY";
-    };
-
-    right: right {
-        bindings = <&kp R &kp I &kp G &kp H &kp T>;
-        label = "RIGHT";
-    };
-
-    river: river {
-        bindings = <&kp R &kp I &kp V &kp E &kp R>;
-        label = "RIVER";
-    };
-
-    run: run {
-        bindings = <&kp R &kp U &kp N>;
-        label = "RUN";
-    };
-
-    said: said {
-        bindings = <&kp S &kp A &kp I &kp D>;
-        label = "SAID";
-    };
-
-    same: same {
-        bindings = <&kp S &kp A &kp M &kp E>;
-        label = "SAME";
-    };
-
-    saw: saw {
-        bindings = <&kp S &kp A &kp W>;
-        label = "SAW";
-    };
-
-    say: say {
-        bindings = <&kp S &kp A &kp Y>;
-        label = "SAY";
-    };
-
-    school: school {
-        bindings = <&kp S &kp C &kp H &kp O &kp O &kp L &kp E>;
-        label = "SCHOOL";
-    };
-
-    second: second {
-        bindings = <&kp S &kp E &kp C &kp O &kp N &kp D>;
-        label = "SECOND";
-    };
-
-    see: see {
-        bindings = <&kp S &kp E &kp E>;
-        label = "SEE";
-    };
-
-    sentence: sentence {
-        bindings = <&kp S &kp E &kp N &kp T &kp E &kp N &kp C &kp E>;
-        label = "SENTENCE";
-    };
-
-    set: set {
-        bindings = <&kp S &kp E &kp T>;
-        label = "SET";
-    };
-
-    she: she {
-        bindings = <&kp S &kp H &kp E>;
-        label = "SHE";
-    };
-
-    should: should {
-        bindings = <&kp S &kp H &kp O &kp U &kp L &kp D>;
-        label = "SHOULD";
-    };
-
-    show: show {
-        bindings = <&kp S &kp H &kp O &kp W>;
-        label = "SHOW";
-    };
-
-    side: side {
-        bindings = <&kp S &kp I &kp D &kp E>;
-        label = "SIDE";
-    };
-
-    small: small {
-        bindings = <&kp S &kp M &kp A &kp L &kp L &kp Y>;
-        label = "SMALL";
-    };
-
-    some: some {
-        bindings = <&kp S &kp O &kp M &kp E>;
-        label = "SOME";
-    };
-
-    something: something {
-        bindings = <&kp S &kp O &kp M &kp E &kp T &kp H &kp I &kp N &kp G>;
-        label = "SOMETHING";
-    };
-
-    sometimes: sometimes {
-        bindings = <&kp S &kp O &kp M &kp E &kp T &kp I &kp M &kp E &kp S>;
-        label = "SOMETIMES";
-    };
-
-    song: song {
-        bindings = <&kp S &kp O &kp N &kp G>;
-        label = "SONG";
-    };
-
-    soon: soon {
-        bindings = <&kp S &kp O &kp O &kp N>;
-        label = "SOON";
-    };
-
-    sound: sound {
-        bindings = <&kp S &kp O &kp U &kp N &kp D>;
-        label = "SOUND";
-    };
-
-    spell: spell {
-        bindings = <&kp S &kp P &kp E &kp L &kp L>;
-        label = "SPELL";
-    };
-
-    start: start {
-        bindings = <&kp S &kp T &kp A &kp R &kp T>;
-        label = "START";
-    };
-
-    state: state {
-        bindings = <&kp S &kp T &kp A &kp T &kp E>;
-        label = "STATE";
-    };
-
-    still: still {
-        bindings = <&kp S &kp T &kp I &kp L &kp L>;
-        label = "STILL";
-    };
-
-    stop: stop {
-        bindings = <&kp S &kp T &kp O &kp P>;
-        label = "STOP";
-    };
-
-    story: story {
-        bindings = <&kp S &kp T &kp O &kp R &kp Y>;
-        label = "STORY";
-    };
-
-    study: study {
-        bindings = <&kp S &kp T &kp U &kp D &kp Y>;
-        label = "STUDY";
-    };
-
-    such: such {
-        bindings = <&kp S &kp U &kp C &kp H>;
-        label = "SUCH";
-    };
-
-    take: take {
-        bindings = <&kp T &kp A &kp K &kp E>;
-        label = "TAKE";
-    };
-
-    talk: talk {
-        bindings = <&kp T &kp A &kp L &kp K>;
-        label = "TALK";
-    };
-
-    tell: tell {
-        bindings = <&kp T &kp E &kp L &kp L>;
-        label = "TELL";
-    };
-
-    than: than {
-        bindings = <&kp T &kp H &kp A &kp N>;
-        label = "THAN";
-    };
-
-    that: that {
-        bindings = <&kp T &kp H &kp A &kp T>;
-        label = "THAT";
-    };
-
-    their: their {
-        bindings = <&kp T &kp H &kp E &kp I &kp R>;
-        label = "THEIR";
-    };
-
-    them: them {
-        bindings = <&kp T &kp H &kp E &kp M>;
-        label = "THEM";
-    };
-
-    then: then {
-        bindings = <&kp T &kp H &kp E &kp N>;
-        label = "THEN";
-    };
-
-    there: there {
-        bindings = <&kp T &kp H &kp E &kp R &kp E>;
-        label = "THERE";
-    };
-
-    these: these {
-        bindings = <&kp T &kp H &kp E &kp S &kp E>;
-        label = "THESE";
-    };
-
-    they: they {
-        bindings = <&kp T &kp H &kp E &kp Y>;
-        label = "THEY";
-    };
-
-    thing: thing {
-        bindings = <&kp T &kp H &kp I &kp N &kp G>;
-        label = "THING";
-    };
-
-    think: think {
-        bindings = <&kp T &kp H &kp I &kp N &kp K>;
-        label = "THINK";
-    };
-
-    this: this {
-        bindings = <&kp T &kp H &kp I &kp S>;
-        label = "THIS";
-    };
-
-    those: those {
-        bindings = <&kp T &kp H &kp O &kp S &kp E>;
-        label = "THOSE";
-    };
-
-    thought: thought {
-        bindings = <&kp T &kp H &kp O &kp U &kp G &kp H &kp T>;
-        label = "THOUGHT";
-    };
-
-    three: three {
-        bindings = <&kp T &kp H &kp R &kp E &kp E>;
-        label = "THREE";
-    };
-
-    through: through {
-        bindings = <&kp T &kp H &kp R &kp O &kp U &kp G &kp H>;
-        label = "THROUGH";
-    };
-
-    time: time {
-        bindings = <&kp T &kp I &kp M &kp E>;
-        label = "TIME";
-    };
-
-    together: together {
-        bindings = <&kp T &kp O &kp G &kp E &kp T &kp H &kp E &kp R>;
-        label = "TOGETHER";
-    };
-
-    too: too {
-        bindings = <&kp T &kp O &kp O>;
-        label = "TOO";
-    };
-
-    took: took {
-        bindings = <&kp T &kp O &kp O &kp K>;
-        label = "TOOK";
-    };
-
-    tree: tree {
-        bindings = <&kp T &kp R &kp E &kp E>;
-        label = "TREE";
-    };
-
-    try: try {
-        bindings = <&kp T &kp R &kp Y>;
-        label = "TRY";
-    };
-
-    turn: turn {
-        bindings = <&kp T &kp U &kp R &kp N>;
-        label = "TURN";
-    };
-
-    two: two {
-        bindings = <&kp T &kp W &kp O>;
-        label = "TWO";
-    };
-
-    under: under {
-        bindings = <&kp U &kp N &kp D &kp E &kp R>;
-        label = "UNDER";
-    };
-
-    up: up {
-        bindings = <&kp U &kp P>;
-        label = "UP";
-    };
-
-    use: use {
-        bindings = <&kp U &kp S &kp E>;
-        label = "USE";
-    };
-
-    very: very {
-        bindings = <&kp V &kp E &kp R &kp Y>;
-        label = "VERY";
-    };
-
-    want: want {
-        bindings = <&kp W &kp A &kp N &kp T>;
-        label = "WANT";
-    };
-
-    way: way {
-        bindings = <&kp W &kp A &kp Y>;
-        label = "WAY";
-    };
-
-    we: we {
-        bindings = <&kp W &kp E>;
-        label = "WE";
-    };
-
-    well: well {
-        bindings = <&kp W &kp E &kp L &kp L>;
-        label = "WELL";
-    };
-
-    what: what {
-        bindings = <&kp W &kp H &kp A &kp T>;
-        label = "WHAT";
-    };
-
-    when: when {
-        bindings = <&kp W &kp H &kp E &kp N>;
-        label = "WHEN";
-    };
-
-    where: where {
-        bindings = <&kp W &kp H &kp E &kp R &kp E>;
-        label = "WHERE";
-    };
-
-    which: which {
-        bindings = <&kp W &kp H &kp I &kp C &kp H>;
-        label = "WHICH";
-    };
-
-    who: who {
-        bindings = <&kp W &kp H &kp O>;
-        label = "WHO";
-    };
-
-    why: why {
-        bindings = <&kp W &kp H &kp Y>;
-        label = "WHY";
-    };
-
-    will: will {
-        bindings = <&kp W &kp I &kp L &kp L>;
-        label = "WILL";
-    };
-
-    with: with {
-        bindings = <&kp W &kp I &kp T &kp H>;
-        label = "WITH";
-    };
-
-    word: word {
-        bindings = <&kp W &kp O &kp R &kp D>;
-        label = "WORD";
-    };
-
-    work: work {
-        bindings = <&kp W &kp O &kp R &kp K>;
-        label = "WORK";
-    };
-
-    world: world {
-        bindings = <&kp W &kp O &kp R &kp L &kp D>;
-        label = "WORLD";
-    };
-
-    would: would {
-        bindings = <&kp W &kp O &kp U &kp L &kp D>;
-        label = "WOULD";
-    };
-
-    write: write {
-        bindings = <&kp W &kp R &kp I &kp T &kp E>;
-        label = "WRITE";
-    };
-
-    year: year {
-        bindings = <&kp Y &kp E &kp A &kp R>;
-        label = "YEAR";
-    };
-
-    you: you {
-        bindings = <&kp Y &kp O &kp U>;
-        label = "YOU";
-    };
-
-    your: your {
-        bindings = <&kp Y &kp O &kp U &kp R>;
-        label = "YOUR";
-    };
-
-    yourself: yourself {
-        bindings = <&kp Y &kp O &kp U &kp R &kp S &kp E &kp L &kp F &kp>;
-        label = "YOURSELF";
-    };
-
-    yes: yes {
-        bindings = <&kp Y &kp E &kp S>;
-        label = "YES";
-    };
-
-    zone: zone {
-        bindings = <&kp Z &kp O &kp N &kp E>;
-        label = "ZONE";
-    };
-
+  about: about {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp A &kp B &kp O &kp U &kp T>;
+    label = "ABOUT";
+};
+
+above: above {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp A &kp B &kp O &kp V &kp E>;
+    label = "ABOVE";
+};
+
+after: after {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp A &kp F &kp T &kp E &kp R>;
+    label = "AFTER";
+};
+
+again: again {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp A &kp G &kp A &kp I &kp N>;
+    label = "AGAIN";
+};
+
+along: along {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp A &kp L &kp O &kp N &kp G>;
+    label = "ALONG";
+};
+
+also: also {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp A &kp L &kp S &kp O>;
+    label = "ALSO";
+};
+
+always: always {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp A &kp L &kp W &kp A &kp Y &kp S>;
+    label = "ALWAYS";
+};
+
+animal: animal {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp A &kp N &kp I &kp M &kp A &kp L>;
+    label = "ANIMAL";
+};
+
+another: another {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp A &kp N &kp O &kp T &kp H &kp E &kp R>;
+    label = "ANOTHER";
+};
+
+answer: answer {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp A &kp N &kp S &kp W &kp E &kp R>;
+    label = "ANSWER";
+};
+
+around: around {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp A &kp R &kp O &kp U &kp N &kp D>;
+    label = "AROUND";
+};
+
+ask: ask {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp A &kp S &kp K>;
+    label = "ASK";
+};
+
+away: away {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp A &kp W &kp A &kp Y>;
+    label = "AWAY";
+};
+
+because: because {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp B &kp E &kp C &kp A &kp U &kp S &kp E>;
+    label = "BECAUSE";
+};
+
+before: before {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp B &kp E &kp F &kp O &kp R &kp E>;
+    label = "BEFORE";
+};
+
+began: began {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp B &kp E &kp G &kp A &kp N>;
+    label = "BEGAN";
+};
+
+begin: begin {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp B &kp E &kp G &kp I &kp N>;
+    label = "BEGIN";
+};
+
+being: being {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp B &kp E &kp I &kp N &kp G>;
+    label = "BEING";
+};
+
+below: below {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp B &kp E &kp L &kp O &kp W>;
+    label = "BELOW";
+};
+
+between: between {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp B &kp E &kp T &kp W &kp E &kp E &kp N>;
+    label = "BETWEEN";
+};
+
+book: book {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp B &kp O &kp O &kp K>;
+    label = "BOOK";
+};
+
+both: both {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp B &kp O &kp T &kp H>;
+    label = "BOTH";
+};
+
+carry: carry {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp C &kp A &kp R &kp R &kp Y>;
+    label = "CARRY";
+};
+
+change: change {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp C &kp H &kp A &kp N &kp G &kp E>;
+    label = "CHANGE";
+};
+
+children: children {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp C &kp H &kp I &kp L &kp D &kp R &kp E &kp N>;
+    label = "CHILDREN";
+};
+
+close: close {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp C &kp L &kp O &kp S &kp E>;
+    label = "CLOSE";
+};
+
+come: come {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp C &kp O &kp M &kp E>;
+    label = "COME";
+};
+
+could: could {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp C &kp O &kp U &kp L &kp D>;
+    label = "COULD";
+};
+
+country: country {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp C &kp O &kp U &kp N &kp T &kp R &kp Y>;
+    label = "COUNTRY";
+};
+
+different: different {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp D &kp I &kp F &kp F &kp E &kp R &kp E &kp N &kp T>;
+    label = "DIFFERENT";
+};
+
+does: does {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp D &kp O &kp E &kp S>;
+    label = "DOES";
+};
+
+dont: dont {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp D &kp O &kp N &kp T>;
+    label = "DONT";
+};
+
+down: down {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp D &kp O &kp W &kp N>;
+    label = "DOWN";
+};
+
+earth: earth {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp E &kp A &kp R &kp T &kp H>;
+    label = "EARTH";
+};
+
+enough: enough {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp E &kp N &kp O &kp U &kp G &kp H &kp T>;
+    label = "ENOUGH";
+};
+
+even: even {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp E &kp V &kp E &kp N>;
+    label = "EVEN";
+};
+
+every: every {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp E &kp V &kp E &kp R &kp Y>;
+    label = "EVERY";
+};
+
+example: example {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp E &kp X &kp A &kp M &kp P &kp L &kp E>;
+    label = "EXAMPLE";
+};
+
+family: family {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp F &kp A &kp M &kp I &kp L &kp Y>;
+    label = "FAMILY";
+};
+
+father: father {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp F &kp A &kp T &kp H &kp E &kp R>;
+    label = "FATHER";
+};
+
+feet: feet {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp F &kp E &kp E &kp T>;
+    label = "FEET";
+};
+
+find: find {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp F &kp I &kp N &kp D>;
+    label = "FIND";
+};
+
+first: first {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp F &kp I &kp R &kp S &kp T>;
+    label = "FIRST";
+};
+
+follow: follow {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp F &kp O &kp L &kp L &kp O &kp W>;
+    label = "FOLLOW";
+};
+
+food: food {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp F &kp O &kp O &kp D>;
+    label = "FOOD";
+};
+
+form: form {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp F &kp O &kp R &kp M>;
+    label = "FORM";
+};
+
+found: found {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp F &kp O &kp U &kp N &kp D>;
+    label = "FOUND";
+};
+
+four: four {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp F &kp O &kp U &kp R>;
+    label = "FOUR";
+};
+
+from: from {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp F &kp R &kp O &kp M>;
+    label = "FROM";
+};
+
+girl: girl {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp G &kp I &kp R &kp L &kp O>;
+    label = "GIRL";
+};
+
+give: give {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp G &kp I &kp V &kp E>;
+    label = "GIVE";
+};
+
+good: good {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp G &kp O &kp O &kp D>;
+    label = "GOOD";
+};
+
+great: great {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp G &kp R &kp E &kp A &kp T>;
+    label = "GREAT";
+};
+
+group: group {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp G &kp R &kp O &kp U &kp P &kp T>;
+    label = "GROUP";
+};
+
+grow: grow {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp G &kp R &kp O &kp W>;
+    label = "GROW";
+};
+
+hand: hand {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp H &kp A &kp N &kp D>;
+    label = "HAND";
+};
+
+hard: hard {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp H &kp A &kp R &kp D>;
+    label = "HARD";
+};
+
+have: have {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp H &kp A &kp V &kp E>;
+    label = "HAVE";
+};
+
+head: head {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp H &kp E &kp A &kp D>;
+    label = "HEAD";
+};
+
+hear: hear {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp H &kp E &kp A &kp R>;
+    label = "HEAR";
+};
+
+hello: hello {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp H &kp E &kp L &kp L &kp O>;
+    label = "HELLO";
+};
+
+help: help {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp H &kp E &kp L &kp P>;
+    label = "HELP";
+};
+
+high: high {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp H &kp I &kp G &kp H>;
+    label = "HIGH";
+};
+
+home: home {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp H &kp O &kp M &kp E>;
+    label = "HOME";
+};
+
+house: house {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp H &kp O &kp U &kp S &kp E>;
+    label = "HOUSE";
+};
+
+how: how {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp H &kp O &kp W>;
+    label = "HOW";
+};
+
+idea: idea {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp I &kp D &kp E &kp A>;
+    label = "IDEA";
+};
+
+important: important {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp I &kp M &kp P &kp O &kp R &kp T &kp A &kp N &kp T>;
+    label = "IMPORTANT";
+};
+
+into: into {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp I &kp N &kp T &kp O>;
+    label = "INTO";
+};
+
+just: just {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp J &kp U &kp S &kp T>;
+    label = "JUST";
+};
+
+keep: keep {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp K &kp E &kp E &kp P>;
+    label = "KEEP";
+};
+
+kind: kind {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp K &kp I &kp N &kp D>;
+    label = "KIND";
+};
+
+know: know {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp K &kp N &kp O &kp W>;
+    label = "KNOW";
+};
+
+large: large {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp L &kp A &kp R &kp G &kp E>;
+    label = "LARGE";
+};
+
+last: last {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp L &kp A &kp S &kp T>;
+    label = "LAST";
+};
+
+later: later {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp L &kp A &kp T &kp E &kp R>;
+    label = "LATER";
+};
+
+learn: learn {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp L &kp E &kp A &kp R &kp N>;
+    label = "LEARN";
+};
+
+leave: leave {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp L &kp E &kp A &kp V &kp E>;
+    label = "LEAVE";
+};
+
+left: left {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp L &kp E &kp F &kp T>;
+    label = "LEFT";
+};
+
+letter: letter {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp L &kp E &kp T &kp T &kp E &kp R>;
+    label = "LETTER";
+};
+
+life: life {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp L &kp I &kp F &kp E>;
+    label = "LIFE";
+};
+
+light: light {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp L &kp I &kp G &kp H &kp T>;
+    label = "LIGHT";
+};
+
+like: like {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp L &kp I &kp K &kp E>;
+    label = "LIKE";
+};
+
+line: line {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp L &kp I &kp N &kp E>;
+    label = "LINE";
+};
+
+list: list {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp L &kp I &kp S &kp T>;
+    label = "LIST";
+};
+
+little: little {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp L &kp I &kp T &kp T &kp L &kp E>;
+    label = "LITTLE";
+};
+
+live: live {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp L &kp I &kp V &kp E>;
+    label = "LIVE";
+};
+
+long: long {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp L &kp O &kp N &kp G>;
+    label = "LONG";
+};
+
+look: look {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp L &kp O &kp O &kp K>;
+    label = "LOOK";
+};
+
+make: make {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp M &kp A &kp K &kp E>;
+    label = "MAKE";
+};
+
+many: many {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp M &kp A &kp N &kp Y>;
+    label = "MANY";
+};
+
+mean: mean {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp M &kp E &kp A &kp N>;
+    label = "MEAN";
+};
+
+might: might {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp M &kp I &kp G &kp H &kp T>;
+    label = "MIGHT";
+};
+
+mile: mile {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp M &kp I &kp L &kp E>;
+    label = "MILE";
+};
+
+miss: miss {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp M &kp I &kp S &kp S>;
+    label = "MISS";
+};
+
+more: more {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp M &kp O &kp R &kp E>;
+    label = "MORE";
+};
+
+most: most {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp M &kp O &kp S &kp T>;
+    label = "MOST";
+};
+
+mother: mother {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp M &kp O &kp T &kp H &kp E &kp R>;
+    label = "MOTHER";
+};
+
+mountain: mountain {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp M &kp O &kp U &kp N &kp T &kp A &kp I &kp N>;
+    label = "MOUNTAIN";
+};
+
+move: move {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp M &kp O &kp V &kp E>;
+    label = "MOVE";
+};
+
+much: much {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp M &kp U &kp C &kp H>;
+    label = "MUCH";
+};
+
+must: must {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp M &kp U &kp S &kp T>;
+    label = "MUST";
+};
+
+name: name {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp N &kp A &kp M &kp E>;
+    label = "NAME";
+};
+
+near: near {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp N &kp E &kp A &kp R>;
+    label = "NEAR";
+};
+
+need: need {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp N &kp E &kp E &kp D>;
+    label = "NEED";
+};
+
+never: never {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp N &kp E &kp V &kp E &kp R>;
+    label = "NEVER";
+};
+
+next: next {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp N &kp E &kp X &kp T>;
+    label = "NEXT";
+};
+
+night: night {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp N &kp I &kp G &kp H &kp T>;
+    label = "NIGHT";
+};
+
+number: number {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp N &kp U &kp M &kp B &kp E &kp R>;
+    label = "NUMBER";
+};
+
+often: often {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp O &kp F &kp T &kp E &kp N>;
+    label = "OFTEN";
+};
+
+open: open {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp O &kp P &kp E &kp N>;
+    label = "OPEN";
+};
+
+other: other {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp O &kp T &kp H &kp E &kp R>;
+    label = "OTHER";
+};
+
+over: over {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp O &kp V &kp E &kp R>;
+    label = "OVER";
+};
+
+page: page {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp P &kp A &kp G &kp E>;
+    label = "PAGE";
+};
+
+paper: paper {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp P &kp A &kp P &kp E &kp R>;
+    label = "PAPER";
+};
+
+part: part {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp P &kp A &kp R &kp T>;
+    label = "PART";
+};
+
+people: people {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp P &kp E &kp O &kp P &kp L &kp E>;
+    label = "PEOPLE";
+};
+
+picture: picture {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp P &kp I &kp C &kp T &kp U &kp R &kp E>;
+    label = "PICTURE";
+};
+
+place: place {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp P &kp L &kp A &kp C &kp E>;
+    label = "PLACE";
+};
+
+plant: plant {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp P &kp L &kp A &kp N &kp T>;
+    label = "PLANT";
+};
+
+play: play {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp P &kp L &kp A &kp Y>;
+    label = "PLAY";
+};
+
+point: point {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp P &kp O &kp I &kp N &kp T>;
+    label = "POINT";
+};
+
+question: question {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp Q &kp U &kp E &kp S &kp T &kp I &kp O &kp N>;
+    label = "QUESTION";
+};
+
+quick: quick {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp Q &kp U &kp I &kp C &kp K>;
+    label = "QUICK";
+};
+
+quickly: quickly {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp Q &kp U &kp I &kp C &kp K &kp L &kp Y>;
+    label = "QUICKLY";
+};
+
+quite: quite {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp Q &kp U &kp I &kp T &kp E>;
+    label = "QUITE";
+};
+
+read: read {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp R &kp E &kp A &kp D>;
+    label = "READ";
+};
+
+really: really {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp R &kp E &kp A &kp L &kp L &kp Y>;
+    label = "REALLY";
+};
+
+right: right {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp R &kp I &kp G &kp H &kp T>;
+    label = "RIGHT";
+};
+
+river: river {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp R &kp I &kp V &kp E &kp R>;
+    label = "RIVER";
+};
+
+run: run {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp R &kp U &kp N>;
+    label = "RUN";
+};
+
+said: said {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp A &kp I &kp D>;
+    label = "SAID";
+};
+
+same: same {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp A &kp M &kp E>;
+    label = "SAME";
+};
+
+saw: saw {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp A &kp W>;
+    label = "SAW";
+};
+
+say: say {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp A &kp Y>;
+    label = "SAY";
+};
+
+school: school {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp C &kp H &kp O &kp O &kp L &kp E>;
+    label = "SCHOOL";
+};
+
+second: second {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp E &kp C &kp O &kp N &kp D>;
+    label = "SECOND";
+};
+
+see: see {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp E &kp E>;
+    label = "SEE";
+};
+
+sentence: sentence {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp E &kp N &kp T &kp E &kp N &kp C &kp E>;
+    label = "SENTENCE";
+};
+
+set: set {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp E &kp T>;
+    label = "SET";
+};
+
+she: she {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp H &kp E>;
+    label = "SHE";
+};
+
+should: should {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp H &kp O &kp U &kp L &kp D>;
+    label = "SHOULD";
+};
+
+show: show {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp H &kp O &kp W>;
+    label = "SHOW";
+};
+
+side: side {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp I &kp D &kp E>;
+    label = "SIDE";
+};
+
+small: small {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp M &kp A &kp L &kp L &kp Y>;
+    label = "SMALL";
+};
+
+some: some {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp O &kp M &kp E>;
+    label = "SOME";
+};
+
+something: something {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp O &kp M &kp E &kp T &kp H &kp I &kp N &kp G>;
+    label = "SOMETHING";
+};
+
+sometimes: sometimes {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp O &kp M &kp E &kp T &kp I &kp M &kp E &kp S>;
+    label = "SOMETIMES";
+};
+
+song: song {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp O &kp N &kp G>;
+    label = "SONG";
+};
+
+soon: soon {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp O &kp O &kp N>;
+    label = "SOON";
+};
+
+sound: sound {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp O &kp U &kp N &kp D>;
+    label = "SOUND";
+};
+
+spell: spell {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp P &kp E &kp L &kp L>;
+    label = "SPELL";
+};
+
+start: start {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp T &kp A &kp R &kp T>;
+    label = "START";
+};
+
+state: state {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp T &kp A &kp T &kp E>;
+    label = "STATE";
+};
+
+still: still {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp T &kp I &kp L &kp L>;
+    label = "STILL";
+};
+
+stop: stop {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp T &kp O &kp P>;
+    label = "STOP";
+};
+
+story: story {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp T &kp O &kp R &kp Y>;
+    label = "STORY";
+};
+
+study: study {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp T &kp U &kp D &kp Y>;
+    label = "STUDY";
+};
+
+such: such {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp S &kp U &kp C &kp H>;
+    label = "SUCH";
+};
+
+take: take {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp A &kp K &kp E>;
+    label = "TAKE";
+};
+
+talk: talk {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp A &kp L &kp K>;
+    label = "TALK";
+};
+
+tell: tell {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp E &kp L &kp L>;
+    label = "TELL";
+};
+
+than: than {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp H &kp A &kp N>;
+    label = "THAN";
+};
+
+that: that {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp H &kp A &kp T>;
+    label = "THAT";
+};
+
+their: their {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp H &kp E &kp I &kp R>;
+    label = "THEIR";
+};
+
+them: them {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp H &kp E &kp M>;
+    label = "THEM";
+};
+
+then: then {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp H &kp E &kp N>;
+    label = "THEN";
+};
+
+there: there {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp H &kp E &kp R &kp E>;
+    label = "THERE";
+};
+
+these: these {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp H &kp E &kp S &kp E>;
+    label = "THESE";
+};
+
+they: they {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp H &kp E &kp Y>;
+    label = "THEY";
+};
+
+thing: thing {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp H &kp I &kp N &kp G>;
+    label = "THING";
+};
+
+think: think {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp H &kp I &kp N &kp K>;
+    label = "THINK";
+};
+
+this: this {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp H &kp I &kp S>;
+    label = "THIS";
+};
+
+those: those {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp H &kp O &kp S &kp E>;
+    label = "THOSE";
+};
+
+thought: thought {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp H &kp O &kp U &kp G &kp H &kp T>;
+    label = "THOUGHT";
+};
+
+three: three {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp H &kp R &kp E &kp E>;
+    label = "THREE";
+};
+
+through: through {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp H &kp R &kp O &kp U &kp G &kp H>;
+    label = "THROUGH";
+};
+
+time: time {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp I &kp M &kp E>;
+    label = "TIME";
+};
+
+together: together {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp O &kp G &kp E &kp T &kp H &kp E &kp R>;
+    label = "TOGETHER";
+};
+
+too: too {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp O &kp O>;
+    label = "TOO";
+};
+
+took: took {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp O &kp O &kp K>;
+    label = "TOOK";
+};
+
+tree: tree {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp R &kp E &kp E>;
+    label = "TREE";
+};
+
+try: try {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp R &kp Y>;
+    label = "TRY";
+};
+
+turn: turn {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp U &kp R &kp N>;
+    label = "TURN";
+};
+
+two: two {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp W &kp O>;
+    label = "TWO";
+};
+
+under: under {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp U &kp N &kp D &kp E &kp R>;
+    label = "UNDER";
+};
+
+up: up {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp U &kp P>;
+    label = "UP";
+};
+
+use: use {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp U &kp S &kp E>;
+    label = "USE";
+};
+
+very: very {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp V &kp E &kp R &kp Y>;
+    label = "VERY";
+};
+
+want: want {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp W &kp A &kp N &kp T>;
+    label = "WANT";
+};
+
+way: way {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp W &kp A &kp Y>;
+    label = "WAY";
+};
+
+we: we {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp W &kp E>;
+    label = "WE";
+};
+
+well: well {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp W &kp E &kp L &kp L>;
+    label = "WELL";
+};
+
+what: what {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp W &kp H &kp A &kp;
+    label = "WHAT";
+    };
+
+when: when {
+    bindings = <&kp W &kp H &kp E &kp N>;
+    label = "WHEN";
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+};
+
+where: where {
+    bindings = <&kp W &kp H &kp E &kp R &kp E>;
+    label = "WHERE";
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+};
+
+which: which {
+    bindings = <&kp W &kp H &kp I &kp C &kp H>;
+    label = "WHICH";
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+};
+
+who: who {
+    bindings = <&kp W &kp H &kp O>;
+    label = "WHO";
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+};
+
+why: why {
+    bindings = <&kp W &kp H &kp Y>;
+    label = "WHY";
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+};
+
+will: will {
+    bindings = <&kp W &kp I &kp L &kp L>;
+    label = "WILL";
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+};
+
+with: with {
+    bindings = <&kp W &kp I &kp T &kp H>;
+    label = "WITH";
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+};
+
+word: word {
+    bindings = <&kp W &kp O &kp R &kp D>;
+    label = "WORD";
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+};
+
+work: work {
+    bindings = <&kp W &kp O &kp R &kp K>;
+    label = "WORK";
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+};
+
+world: world {
+    bindings = <&kp W &kp O &kp R &kp L &kp D>;
+    label = "WORLD";
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+};
+
+would: would {
+    bindings = <&kp W &kp O &kp U &kp L &kp D>;
+    label = "WOULD";
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+};
+
+write: write {
+    bindings = <&kp W &kp R &kp I &kp T &kp E>;
+    label = "WRITE";
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+};
+
+year: year {
+    bindings = <&kp Y &kp E &kp A &kp R>;
+    label = "YEAR";
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+};
+
+you: you {
+    bindings = <&kp Y &kp O &kp U>;
+    label = "YOU";
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+};
+
+your: your {
+    bindings = <&kp Y &kp O &kp U &kp R>;
+    label = "YOUR";
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+};
+
+yourself: yourself {
+    bindings = <&kp Y &kp O &kp U &kp R &kp S &kp E &kp L &kp F>;
+    label = "YOURSELF";
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+};
+
+yes: yes {
+    bindings = <&kp Y &kp E &kp S>;
+    label = "YES";
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+};
+
+zone: zone {
+    bindings = <&kp Z &kp O &kp N &kp E>;
+    label = "ZONE";
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+};
+
+   
     };
 
     keymap {
