@@ -1331,7 +1331,7 @@
             label = "THEM";
         };
 
-        technology_macro: technology_macro {
+        technology: technology{
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings = <&kp T &kp E &kp C &kp H>;
@@ -2410,12 +2410,6 @@
         // Key strokes: 'ss'
     };
 
-    combo_song {
-        bindings = <&song>;
-        key-positions = <25 166>; // 'A' and 'G'
-        // Key strokes: 'sg'
-    };
-
     combo_soon {
         bindings = <&soon>;
         key-positions = <25 167>; // 'A' and 'N'
@@ -2516,17 +2510,6 @@
     };
 
 
-    combo_turn {
-        bindings = <&turn>;
-        key-positions = <25 196>; // 'A' and 'N'
-        // Key strokes: 'tn'
-    };
-
-    combo_type {
-        bindings = <&type>;
-        key-positions = <25 197>; // 'A' and 'P'
-        // Key strokes: 'tp'
-    };
 
     combo_under {
         bindings = <&under>;
@@ -2535,35 +2518,10 @@
     };
 
 
-    combo_user {
-        bindings = <&user>;
-        key-positions = <25 201>; // 'A' and 'R'
-        // Key strokes: 'ur'
-    };
-
     combo_value {
         bindings = <&value>;
         key-positions = <25 202>; // 'A' and 'L'
         // Key strokes: 'vl'
-    };
-
-    combo_very {
-        bindings = <&very>;
-        key-positions = <25 203>; // 'A' and 'Y'
-        // Key strokes: 'vy'
-    };
-
-    combo_want {
-        bindings = <&want>;
-        key-positions = <25 204>; // 'A' and 'T'
-        // Key strokes: 'wt'
-    };
-
-
-    combo_when {
-        bindings = <&when>;
-        key-positions = <25 207>; // 'A' and 'H'
-        // Key strokes: 'wh'
     };
 
     combo_where {
@@ -2571,8 +2529,6 @@
         key-positions = <25 208>; // 'A' and 'R'
         // Key strokes: 'wr'
     };
-
-
 
     combo_year {
         bindings = <&year>;
