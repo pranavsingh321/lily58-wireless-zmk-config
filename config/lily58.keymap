@@ -1643,16 +1643,6 @@
     combos {
         compatible = "zmk,combos";
 
-It seems you’re encountering a parsing error due to duplicate node names in your Device Tree Source (DTS) overlay file. Each combo node needs a unique name, and it looks like the error is because of repeated names or definitions.
-
-Let’s regenerate the combo definitions with unique names. I’ll ensure that no two combo nodes share the same name and correct the key positions.
-
-Here is the revised list with unique node names and correct key positions:
-
-```dts
-combos {
-    compatible = "zmk,combos";
-
     combo_about: combo {
         bindings = <&about>;
         key-positions = <25 26>; // 'A' and 'B'
