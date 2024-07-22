@@ -1921,9 +1921,7 @@
 
     combo_four {
         bindings = <&four>;
-        key-positions = <25 72>; // 'A' and 'R
-
-'
+        key-positions = <25 72>; // 'A' and 'R'
         // Key strokes: 'fr'
     };
 
@@ -2222,8 +2220,6 @@
     };
 
     combo_mountain {
-
-
         bindings = <&mountain>;
         key-positions = <25 122>; // 'A' and 'T'
         // Key strokes: 'mt'
@@ -2519,9 +2515,7 @@
 
     combo_state {
         bindings = <&state>;
-        key-positions = <25 171>; //
-
- 'A' and 'T'
+        key-positions = <25 171>; // 'A' and 'T'
         // Key strokes: 'st'
     };
 
