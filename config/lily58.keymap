@@ -1471,31 +1471,10 @@ want: want {
     label = "WANT";
 };
 
-way: way {
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings = <&kp W &kp A &kp Y>;
-    label = "WAY";
-};
-
-we: we {
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings = <&kp W &kp E>;
-    label = "WE";
-};
-
-well: well {
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings = <&kp W &kp E &kp L &kp L>;
-    label = "WELL";
-};
-
 what: what {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
-    bindings = <&kp W &kp H &kp A &kp;
+    bindings = <&kp W &kp H &kp A &kp T>;
     label = "WHAT";
     };
 
