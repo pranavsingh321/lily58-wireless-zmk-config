@@ -2464,11 +2464,7 @@
         // Key strokes: 'sd'
     };
 
-    combo_table {
-        bindings = <&table>;
-        key-positions = <25 177>; // 'A' and 'L'
-        // Key strokes: 'tl'
-    };
+
 
     combo_take {
         bindings = <&take>;
