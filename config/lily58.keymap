@@ -2519,12 +2519,6 @@
         // Key strokes: 'st'
     };
 
-    combo_stay {
-        bindings = <&stay>;
-        key-positions = <25 172>; // 'A' and 'Y'
-        // Key strokes: 'sy'
-    };
-
     combo_stop {
         bindings = <&stop>;
         key-positions = <25 173>; // 'A' and 'P'
