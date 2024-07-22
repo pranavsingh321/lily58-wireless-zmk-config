@@ -1429,7 +1429,7 @@
             label = "TOGETHER";
         };
 
-        tomorrow_macro: tomorrow_macro {
+        tomorrow: tomorrow {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings = <&kp T &kp O &kp M &kp O &kp R &kp R &kp O &kp W>;
@@ -1472,7 +1472,7 @@
             label = "UNDER";
         };
 
-        value_macro: value_macro {
+        value: value {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings = <&kp V &kp A &kp L &kp U &kp E>;
