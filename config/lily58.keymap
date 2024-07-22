@@ -1275,18 +1275,18 @@
             label = "STORY";
         };
 
+        straight: straight {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp T &kp R &kp A &kp I &kp G &kp H &kp T>;
+            label = "SRAIGHT";
+        };
+
         study: study {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp S &kp T &kp U &kp D &kp Y>;
             label = "STUDY";
-        };
-
-        such: such {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp S &kp U &kp C &kp H>;
-            label = "SUCH";
         };
 
         take: take {
@@ -1301,13 +1301,6 @@
             #binding-cells = <0>;
             bindings = <&kp T &kp A &kp L &kp K>;
             label = "TALK";
-        };
-
-        tell: tell {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp T &kp E &kp L &kp L>;
-            label = "TELL";
         };
 
         than: than {
@@ -1337,6 +1330,13 @@
             bindings = <&kp T &kp H &kp E &kp M>;
             label = "THEM";
         };
+
+        technology_macro: technology_macro {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp E &kp C &kp H>;
+    label = "TECH";
+};
 
         then: then {
             compatible = "zmk,behavior-macro";
@@ -1429,12 +1429,12 @@
             label = "TOGETHER";
         };
 
-        too: too {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp T &kp O &kp O>;
-            label = "TOO";
-        };
+        tomorrow_macro: tomorrow_macro {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp T &kp O &kp M &kp O &kp R &kp R &kp O &kp W>;
+    label = "TOMORROW";
+};
 
         took: took {
             compatible = "zmk,behavior-macro";
@@ -1464,12 +1464,6 @@
             label = "TURN";
         };
 
-        two: two {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp T &kp W &kp O>;
-            label = "TWO";
-        };
 
         under: under {
             compatible = "zmk,behavior-macro";
@@ -1478,19 +1472,12 @@
             label = "UNDER";
         };
 
-        up: up {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp U &kp P>;
-            label = "UP";
-        };
-
-        use: use {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp U &kp S &kp E>;
-            label = "USE";
-        };
+        value_macro: value_macro {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp V &kp A &kp L &kp U &kp E>;
+    label = "VALUE";
+};
 
         very: very {
             compatible = "zmk,behavior-macro";
@@ -1534,48 +1521,6 @@
             #binding-cells = <0>;
         };
 
-        who: who {
-            bindings = <&kp W &kp H &kp O>;
-            label = "WHO";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-        };
-
-        why: why {
-            bindings = <&kp W &kp H &kp Y>;
-            label = "WHY";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-        };
-
-        will: will {
-            bindings = <&kp W &kp I &kp L &kp L>;
-            label = "WILL";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-        };
-
-        with: with {
-            bindings = <&kp W &kp I &kp T &kp H>;
-            label = "WITH";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-        };
-
-        word: word {
-            bindings = <&kp W &kp O &kp R &kp D>;
-            label = "WORD";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-        };
-
-        work: work {
-            bindings = <&kp W &kp O &kp R &kp K>;
-            label = "WORK";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-        };
-
         world: world {
             bindings = <&kp W &kp O &kp R &kp L &kp D>;
             label = "WORLD";
@@ -1611,12 +1556,6 @@
             #binding-cells = <0>;
         };
 
-        your: your {
-            bindings = <&kp Y &kp O &kp U &kp R>;
-            label = "YOUR";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-        };
 
         yourself: yourself {
             bindings = <&kp Y &kp O &kp U &kp R &kp S &kp E &kp L &kp F>;
@@ -1625,19 +1564,7 @@
             #binding-cells = <0>;
         };
 
-        yes: yes {
-            bindings = <&kp Y &kp E &kp S>;
-            label = "YES";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-        };
 
-        zone: zone {
-            bindings = <&kp Z &kp O &kp N &kp E>;
-            label = "ZONE";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-        };
     };
 
     combos {
@@ -2537,12 +2464,6 @@
         // Key strokes: 'sd'
     };
 
-    combo_sure {
-        bindings = <&sure>;
-        key-positions = <25 176>; // 'A' and 'S'
-        // Key strokes: 'sr'
-    };
-
     combo_table {
         bindings = <&table>;
         key-positions = <25 177>; // 'A' and 'L'
@@ -2561,23 +2482,7 @@
         // Key strokes: 'tl'
     };
 
-    combo_target {
-        bindings = <&target>;
-        key-positions = <25 180>; // 'A' and 'T'
-        // Key strokes: 'at'
-    };
 
-    combo_tea {
-        bindings = <&tea>;
-        key-positions = <25 181>; // 'A' and 'E'
-        // Key strokes: 'ea'
-    };
-
-    combo_team {
-        bindings = <&team>;
-        key-positions = <25 182>; // 'A' and 'M'
-        // Key strokes: 'tm'
-    };
 
     combo_technology {
         bindings = <&technology>;
@@ -2585,29 +2490,7 @@
         // Key strokes: 'th'
     };
 
-    combo_tell {
-        bindings = <&tell>;
-        key-positions = <25 184>; // 'A' and 'L'
-        // Key strokes: 'tl'
-    };
 
-    combo_term {
-        bindings = <&term>;
-        key-positions = <25 185>; // 'A' and 'M'
-        // Key strokes: 'tm'
-    };
-
-    combo_test {
-        bindings = <&test>;
-        key-positions = <25 186>; // 'A' and 'T'
-        // Key strokes: 'tt'
-    };
-
-    combo_than {
-        bindings = <&than>;
-        key-positions = <25 187>; // 'A' and 'H'
-        // Key strokes: 'th'
-    };
 
     combo_these {
         bindings = <&these>;
@@ -2615,11 +2498,6 @@
         // Key strokes: 'th'
     };
 
-    combo_three {
-        bindings = <&three>;
-        key-positions = <25 189>; // 'A' and 'R'
-        // Key strokes: 'tr'
-    };
 
     combo_time {
         bindings = <&time>;
@@ -2627,17 +2505,7 @@
         // Key strokes: 'tm'
     };
 
-    combo_to {
-        bindings = <&to>;
-        key-positions = <25 191>; // 'A' and 'O'
-        // Key strokes: 'to'
-    };
 
-    combo_today {
-        bindings = <&today>;
-        key-positions = <25 192>; // 'A' and 'D'
-        // Key strokes: 'td'
-    };
 
     combo_together {
         bindings = <&together>;
@@ -2651,11 +2519,6 @@
         // Key strokes: 'tm'
     };
 
-    combo_total {
-        bindings = <&total>;
-        key-positions = <25 195>; // 'A' and 'T'
-        // Key strokes: 'tt'
-    };
 
     combo_turn {
         bindings = <&turn>;
@@ -2675,17 +2538,6 @@
         // Key strokes: 'un'
     };
 
-    combo_up {
-        bindings = <&up>;
-        key-positions = <25 199>; // 'A' and 'P'
-        // Key strokes: 'up'
-    };
-
-    combo_use {
-        bindings = <&use>;
-        key-positions = <25 200>; // 'A' and 'E'
-        // Key strokes: 'ue'
-    };
 
     combo_user {
         bindings = <&user>;
@@ -2711,17 +2563,6 @@
         // Key strokes: 'wt'
     };
 
-    combo_way {
-        bindings = <&way>;
-        key-positions = <25 205>; // 'A' and 'Y'
-        // Key strokes: 'wy'
-    };
-
-    combo_well {
-        bindings = <&well>;
-        key-positions = <25 206>; // 'A' and 'L'
-        // Key strokes: 'wl'
-    };
 
     combo_when {
         bindings = <&when>;
@@ -2735,23 +2576,7 @@
         // Key strokes: 'wr'
     };
 
-    combo_who {
-        bindings = <&who>;
-        key-positions = <25 209>; // 'A' and 'O'
-        // Key strokes: 'wo'
-    };
 
-    combo_with {
-        bindings = <&with>;
-        key-positions = <25 210>; // 'A' and 'W'
-        // Key strokes: 'wt'
-    };
-
-    combo_work {
-        bindings = <&work>;
-        key-positions = <25 211>; // 'A' and 'K'
-        // Key strokes: 'wk'
-    };
 
     combo_year {
         bindings = <&year>;
@@ -2759,11 +2584,12 @@
         // Key strokes: 'yr'
     };
 
-    combo_young {
-        bindings = <&young>;
-        key-positions = <25 213>; // 'A' and 'G'
-        // Key strokes: 'yg'
-    };
+
+    combo_ys {
+    bindings = <&yourself>; // Reference to the macro
+    key-positions = <110 120>; // Example key positions, adjust as needed
+    // Key strokes: 'YS'
+};
 
     };
 
