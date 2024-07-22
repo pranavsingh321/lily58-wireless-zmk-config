@@ -1331,12 +1331,12 @@
             label = "THEM";
         };
 
-        technology: technology{
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings = <&kp T &kp E &kp C &kp H>;
-    label = "TECH";
-};
+        technology: technology {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp E &kp C &kp H>;
+            label = "TECH";
+        };
 
         then: then {
             compatible = "zmk,behavior-macro";
@@ -1430,11 +1430,11 @@
         };
 
         tomorrow: tomorrow {
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings = <&kp T &kp O &kp M &kp O &kp R &kp R &kp O &kp W>;
-    label = "TOMORROW";
-};
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp O &kp M &kp O &kp R &kp R &kp O &kp W>;
+            label = "TOMORROW";
+        };
 
         took: took {
             compatible = "zmk,behavior-macro";
@@ -1464,7 +1464,6 @@
             label = "TURN";
         };
 
-
         under: under {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -1473,11 +1472,11 @@
         };
 
         value: value {
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings = <&kp V &kp A &kp L &kp U &kp E>;
-    label = "VALUE";
-};
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp A &kp L &kp U &kp E>;
+            label = "VALUE";
+        };
 
         very: very {
             compatible = "zmk,behavior-macro";
@@ -1556,1005 +1555,873 @@
             #binding-cells = <0>;
         };
 
-
         yourself: yourself {
             bindings = <&kp Y &kp O &kp U &kp R &kp S &kp E &kp L &kp F>;
             label = "YOURSELF";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
         };
-
-
     };
 
     combos {
         compatible = "zmk,combos";
 
-    combo_about {
-        bindings = <&about>;
-        key-positions = <25 26>; // 'A' and 'B'
-        // Key strokes: 'ab'
-    };
-
-    combo_above {
-        bindings = <&above>;
-        key-positions = <25 27>; // 'A' and 'V'
-        // Key strokes: 'av'
-    };
-
-    combo_after {
-        bindings = <&after>;
-        key-positions = <25 28>; // 'A' and 'F'
-        // Key strokes: 'af'
-    };
-
-    combo_again {
-        bindings = <&again>;
-        key-positions = <25 29>; // 'A' and 'G'
-        // Key strokes: 'ag'
-    };
-
-    combo_along {
-        bindings = <&along>;
-        key-positions = <25 30>; // 'A' and 'L'
-        // Key strokes: 'al'
-    };
-
-    combo_also {
-        bindings = <&also>;
-        key-positions = <25 31>; // 'A' and 'S'
-        // Key strokes: 'as'
-    };
-
-    combo_always {
-        bindings = <&always>;
-        key-positions = <25 32>; // 'A' and 'W'
-        // Key strokes: 'aw'
-    };
-
-    combo_animal {
-        bindings = <&animal>;
-        key-positions = <25 33>; // 'A' and 'N'
-        // Key strokes: 'an'
-    };
-
-    combo_another {
-        bindings = <&another>;
-        key-positions = <25 34>; // 'A' and 'R'
-        // Key strokes: 'ar'
-    };
-
-    combo_answer {
-        bindings = <&answer>;
-        key-positions = <25 35>; // 'A' and 'E'
-        // Key strokes: 'ae'
-    };
-
-    combo_around {
-        bindings = <&around>;
-        key-positions = <25 36>; // 'A' and 'D'
-        // Key strokes: 'ad'
-    };
-
-    combo_away {
-        bindings = <&away>;
-        key-positions = <25 37>; // 'A' and 'Y'
-        // Key strokes: 'ay'
-    };
-
-    combo_because {
-        bindings = <&because>;
-        key-positions = <25 38>; // 'A' and 'C'
-        // Key strokes: 'bc'
-    };
-
-    combo_before {
-        bindings = <&before>;
-        key-positions = <25 39>; // 'A' and 'B'
-        // Key strokes: 'bf'
-    };
-
-    combo_began {
-        bindings = <&began>;
-        key-positions = <25 40>; // 'A' and 'G'
-        // Key strokes: 'bg'
-    };
-
-    combo_begin {
-        bindings = <&begin>;
-        key-positions = <25 41>; // 'A' and 'N'
-        // Key strokes: 'bn'
-    };
-
-    combo_being {
-        bindings = <&being>;
-        key-positions = <25 42>; // 'A' and 'E'
-        // Key strokes: 'be'
-    };
-
-    combo_below {
-        bindings = <&below>;
-        key-positions = <25 43>; // 'A' and 'W'
-        // Key strokes: 'bw'
-    };
-
-    combo_between {
-        bindings = <&between>;
-        key-positions = <25 44>; // 'A' and 'T'
-        // Key strokes: 'bt'
-    };
-
-    combo_book {
-        bindings = <&book>;
-        key-positions = <25 45>; // 'A' and 'K'
-        // Key strokes: 'bk'
-    };
-
-    combo_both {
-        bindings = <&both>;
-        key-positions = <25 46>; // 'A' and 'O'
-        // Key strokes: 'bo'
-    };
-
-    combo_carry {
-        bindings = <&carry>;
-        key-positions = <25 47>; // 'A' and 'Y'
-        // Key strokes: 'cy'
-    };
-
-    combo_change {
-        bindings = <&change>;
-        key-positions = <25 48>; // 'A' and 'C'
-        // Key strokes: 'ch'
-    };
-
-    combo_children {
-        bindings = <&children>;
-        key-positions = <25 49>; // 'A' and 'L'
-        // Key strokes: 'cl'
-    };
-
-    combo_close {
-        bindings = <&close>;
-        key-positions = <25 50>; // 'A' and 'C'
-        // Key strokes: 'ce'
-    };
-
-    combo_come {
-        bindings = <&come>;
-        key-positions = <25 51>; // 'A' and 'M'
-        // Key strokes: 'cm'
-    };
-
-    combo_could {
-        bindings = <&could>;
-        key-positions = <25 52>; // 'A' and 'D'
-        // Key strokes: 'cd'
-    };
-
-    combo_country {
-        bindings = <&country>;
-        key-positions = <25 53>; // 'A' and 'N'
-        // Key strokes: 'cn'
-    };
-
-    combo_different {
-        bindings = <&different>;
-        key-positions = <25 54>; // 'A' and 'F'
-        // Key strokes: 'df'
-    };
-
-    combo_does {
-        bindings = <&does>;
-        key-positions = <25 55>; // 'A' and 'D'
-        // Key strokes: 'do'
-    };
-
-    combo_dont {
-        bindings = <&dont>;
-        key-positions = <25 56>; // 'A' and 'N'
-        // Key strokes: 'dn'
-    };
-
-    combo_down {
-        bindings = <&down>;
-        key-positions = <25 57>; // 'A' and 'W'
-        // Key strokes: 'dw'
-    };
-
-    combo_earth {
-        bindings = <&earth>;
-        key-positions = <25 58>; // 'A' and 'E'
-        // Key strokes: 'ea'
-    };
-
-    combo_enough {
-        bindings = <&enough>;
-        key-positions = <25 59>; // 'A' and 'N'
-        // Key strokes: 'en'
-    };
-
-    combo_even {
-        bindings = <&even>;
-        key-positions = <25 60>; // 'A' and 'V'
-        // Key strokes: 'ev'
-    };
-
-    combo_every {
-        bindings = <&every>;
-        key-positions = <25 61>; // 'A' and 'Y'
-        // Key strokes: 'ey'
-    };
-
-    combo_example {
-        bindings = <&example>;
-        key-positions = <25 62>; // 'A' and 'E'
-        // Key strokes: 'ex'
-    };
-
-    combo_family {
-        bindings = <&family>;
-        key-positions = <25 63>; // 'A' and 'M'
-        // Key strokes: 'fm'
-    };
-
-    combo_father {
-        bindings = <&father>;
-        key-positions = <25 64>; // 'A' and 'F'
-        // Key strokes: 'fa'
-    };
-
-    combo_feet {
-        bindings = <&feet>;
-        key-positions = <25 65>; // 'A' and 'E'
-        // Key strokes: 'fe'
-    };
-
-    combo_find {
-        bindings = <&find>;
-        key-positions = <25 66>; // 'A' and 'I'
-        // Key strokes: 'fi'
-    };
-
-    combo_first {
-        bindings = <&first>;
-        key-positions = <25 67>; // 'A' and 'R'
-        // Key strokes: 'fr'
-    };
-
-    combo_follow {
-        bindings = <&follow>;
-        key-positions = <25 68>; // 'A' and 'L'
-        // Key strokes: 'fo'
-    };
-
-    combo_food {
-        bindings = <&food>;
-        key-positions = <25 69>; // 'A' and 'D'
-        // Key strokes: 'fd'
-    };
-
-    combo_form {
-        bindings = <&form>;
-        key-positions = <25 70>; // 'A' and 'M'
-        // Key strokes: 'fm'
-    };
-
-    combo_found {
-        bindings = <&found>;
-        key-positions = <25 71>; // 'A' and 'D'
-        // Key strokes: 'fu'
-    };
-
-    combo_four {
-        bindings = <&four>;
-        key-positions = <25 72>; // 'A' and 'R'
-        // Key strokes: 'fr'
-    };
-
-    combo_from {
-        bindings = <&from>;
-        key-positions = <25 73>; // 'A' and 'M'
-        // Key strokes: 'rm'
-    };
-
-    combo_girl {
-        bindings = <&girl>;
-        key-positions = <25 74>; // 'A' and 'L'
-        // Key strokes: 'gl'
-    };
-
-    combo_give {
-        bindings = <&give>;
-        key-positions = <25 75>; // 'A' and 'V'
-        // Key strokes: 'gv'
-    };
-
-    combo_good {
-        bindings = <&good>;
-        key-positions = <25 76>; // 'A' and 'G'
-        // Key strokes: 'gd'
-    };
-
-    combo_great {
-        bindings = <&great>;
-        key-positions = <25 77>; // 'A' and 'T'
-        // Key strokes: 'gt'
-    };
-
-    combo_group {
-        bindings = <&group>;
-        key-positions = <25 78>; // 'A' and 'P'
-        // Key strokes: 'gp'
-    };
-
-    combo_grow {
-        bindings = <&grow>;
-        key-positions = <25 79>; // 'A' and 'W'
-        // Key strokes: 'gw'
-    };
-
-    combo_hand {
-        bindings = <&hand>;
-        key-positions = <25 80>; // 'A' and 'H'
-        // Key strokes: 'ha'
-    };
-
-    combo_hard {
-        bindings = <&hard>;
-        key-positions = <25 81>; // 'A' and 'R'
-        // Key strokes: 'hr'
-    };
-
-    combo_have {
-        bindings = <&have>;
-        key-positions = <25 82>; // 'A' and 'V'
-        // Key strokes: 'hv'
-    };
-
-    combo_head {
-        bindings = <&head>;
-        key-positions = <25 83>; // 'A' and 'D'
-        // Key strokes: 'hd'
-    };
-
-    combo_hear {
-        bindings = <&hear>;
-        key-positions = <25 84>; // 'A' and 'E'
-        // Key strokes: 'he'
-    };
-
-    combo_hello {
-        bindings = <&hello>;
-        key-positions = <25 85>; // 'A' and 'L'
-        // Key strokes: 'hl'
-    };
-
-    combo_help {
-        bindings = <&help>;
-        key-positions = <25 86>; // 'A' and 'P'
-        // Key strokes: 'hp'
-    };
-
-    combo_high {
-        bindings = <&high>;
-        key-positions = <25 87>; // 'A' and 'G'
-        // Key strokes: 'hg'
-    };
-
-    combo_home {
-        bindings = <&home>;
-        key-positions = <25 88>; // 'A' and 'M'
-        // Key strokes: 'hm'
-    };
-
-    combo_house {
-        bindings = <&house>;
-        key-positions = <25 89>; // 'A' and 'H'
-        // Key strokes: 'ho'
-    };
-
-    combo_idea {
-        bindings = <&idea>;
-        key-positions = <25 90>; // 'A' and 'D'
-        // Key strokes: 'id'
-    };
-
-    combo_important {
-        bindings = <&important>;
-        key-positions = <25 91>; // 'A' and 'T'
-        // Key strokes: 'im'
-    };
-
-    combo_into {
-        bindings = <&into>;
-        key-positions = <25 92>; // 'A' and 'N'
-        // Key strokes: 'in'
-    };
-
-    combo_just {
-        bindings = <&just>;
-        key-positions = <25 93>; // 'A' and 'T'
-        // Key strokes: 'jt'
-    };
-
-    combo_keep {
-        bindings = <&keep>;
-        key-positions = <25 94>; // 'A' and 'K'
-        // Key strokes: 'kp'
-    };
-
-    combo_kind {
-        bindings = <&kind>;
-        key-positions = <25 95>; // 'A' and 'D'
-        // Key strokes: 'kd'
-    };
-
-    combo_know {
-        bindings = <&know>;
-        key-positions = <25 96>; // 'A' and 'W'
-        // Key strokes: 'kw'
-    };
-
-    combo_large {
-        bindings = <&large>;
-        key-positions = <25 97>; // 'A' and 'L'
-        // Key strokes: 'lg'
-    };
-
-    combo_last {
-        bindings = <&last>;
-        key-positions = <25 98>; // 'A' and 'T'
-        // Key strokes: 'lt'
-    };
-
-    combo_later {
-        bindings = <&later>;
-        key-positions = <25 99>; // 'A' and 'R'
-        // Key strokes: 'lr'
-    };
-
-    combo_learn {
-        bindings = <&learn>;
-        key-positions = <25 100>; // 'A' and 'E'
-        // Key strokes: 'le'
-    };
-
-    combo_leave {
-        bindings = <&leave>;
-        key-positions = <25 101>; // 'A' and 'V'
-        // Key strokes: 'lv'
-    };
-
-    combo_left {
-        bindings = <&left>;
-        key-positions = <25 102>; // 'A' and 'F'
-        // Key strokes: 'lf'
-    };
-
-    combo_letter {
-        bindings = <&letter>;
-        key-positions = <25 103>; // 'A' and 'L'
-        // Key strokes: 'll'
-    };
-
-    combo_life {
-        bindings = <&life>;
-        key-positions = <25 104>; // 'A' and 'F'
-        // Key strokes: 'lf'
-    };
-
-    combo_light {
-        bindings = <&light>;
-        key-positions = <25 105>; // 'A' and 'T'
-        // Key strokes: 'lt'
-    };
-
-    combo_like {
-        bindings = <&like>;
-        key-positions = <25 106>; // 'A' and 'K'
-        // Key strokes: 'lk'
-    };
-
-    combo_line {
-        bindings = <&line>;
-        key-positions = <25 107>; // 'A' and 'N'
-        // Key strokes: 'ln'
-    };
-
-    combo_list {
-        bindings = <&list>;
-        key-positions = <25 108>; // 'A' and 'S'
-        // Key strokes: 'ls'
-    };
-
-    combo_little {
-        bindings = <&little>;
-        key-positions = <25 109>; // 'A' and 'T'
-        // Key strokes: 'lt'
-    };
-
-    combo_live {
-        bindings = <&live>;
-        key-positions = <25 110>; // 'A' and 'V'
-        // Key strokes: 'lv'
-    };
-
-    combo_long {
-        bindings = <&long>;
-        key-positions = <25 111>; // 'A' and 'G'
-        // Key strokes: 'lo'
-    };
-
-    combo_look {
-        bindings = <&look>;
-        key-positions = <25 112>; // 'A' and 'K'
-        // Key strokes: 'lk'
-    };
-
-    combo_make {
-        bindings = <&make>;
-        key-positions = <25 113>; // 'A' and 'K'
-        // Key strokes: 'mk'
-    };
-
-    combo_many {
-        bindings = <&many>;
-        key-positions = <25 114>; // 'A' and 'N'
-        // Key strokes: 'mn'
-    };
-
-    combo_mean {
-        bindings = <&mean>;
-        key-positions = <25 115>; // 'A' and 'E'
-        // Key strokes: 'me'
-    };
-
-    combo_might {
-        bindings = <&might>;
-        key-positions = <25 116>; // 'A' and 'G'
-        // Key strokes: 'mg'
-    };
-
-    combo_mile {
-        bindings = <&mile>;
-        key-positions = <25 117>; // 'A' and 'L'
-        // Key strokes: 'ml'
-    };
-
-    combo_miss {
-        bindings = <&miss>;
-        key-positions = <25 118>; // 'A' and 'S'
-        // Key strokes: 'ms'
-    };
-
-    combo_more {
-        bindings = <&more>;
-        key-positions = <25 119>; // 'A' and 'R'
-        // Key strokes: 'mr'
-    };
-
-    combo_most {
-        bindings = <&most>;
-        key-positions = <25 120>; // 'A' and 'O'
-        // Key strokes: 'mo'
-    };
-
-    combo_mother {
-        bindings = <&mother>;
-        key-positions = <25 121>; // 'A' and 'H'
-        // Key strokes: 'mh'
-    };
-
-    combo_mountain {
-        bindings = <&mountain>;
-        key-positions = <25 122>; // 'A' and 'T'
-        // Key strokes: 'mt'
-    };
-
-    combo_move {
-        bindings = <&move>;
-        key-positions = <25 123>; // 'A' and 'V'
-        // Key strokes: 'mv'
-    };
-
-    combo_much {
-        bindings = <&much>;
-        key-positions = <25 124>; // 'A' and 'C'
-        // Key strokes: 'mc'
-    };
-
-    combo_must {
-        bindings = <&must>;
-        key-positions = <25 125>; // 'A' and 'T'
-        // Key strokes: 'mu'
-    };
-
-    combo_name {
-        bindings = <&name>;
-        key-positions = <25 126>; // 'A' and 'M'
-        // Key strokes: 'nm'
-    };
-
-    combo_near {
-        bindings = <&near>;
-        key-positions = <25 127>; // 'A' and 'R'
-        // Key strokes: 'nr'
-    };
-
-    combo_need {
-        bindings = <&need>;
-        key-positions = <25 128>; // 'A' and 'D'
-        // Key strokes: 'nd'
-    };
-
-    combo_never {
-        bindings = <&never>;
-        key-positions = <25 129>; // 'A' and 'V'
-        // Key strokes: 'nv'
-    };
-
-    combo_next {
-        bindings = <&next>;
-        key-positions = <25 130>; // 'A' and 'X'
-        // Key strokes: 'nx'
-    };
-
-    combo_night {
-        bindings = <&night>;
-        key-positions = <25 131>; // 'A' and 'G'
-        // Key strokes: 'ng'
-    };
-
-    combo_number {
-        bindings = <&number>;
-        key-positions = <25 132>; // 'A' and 'U'
-        // Key strokes: 'nu'
-    };
-
-    combo_often {
-        bindings = <&often>;
-        key-positions = <25 133>; // 'A' and 'F'
-        // Key strokes: 'of'
-    };
-
-    combo_open {
-        bindings = <&open>;
-        key-positions = <25 134>; // 'A' and 'P'
-        // Key strokes: 'op'
-    };
-
-    combo_other {
-        bindings = <&other>;
-        key-positions = <25 135>; // 'A' and 'T'
-        // Key strokes: 'ot'
-    };
-
-    combo_over {
-        bindings = <&over>;
-        key-positions = <25 136>; // 'A' and 'V'
-        // Key strokes: 'ov'
-    };
-
-    combo_page {
-        bindings = <&page>;
-        key-positions = <25 137>; // 'A' and 'G'
-        // Key strokes: 'pg'
-    };
-
-    combo_paper {
-        bindings = <&paper>;
-        key-positions = <25 138>; // 'A' and 'P'
-        // Key strokes: 'pp'
-    };
-
-    combo_part {
-        bindings = <&part>;
-        key-positions = <25 139>; // 'A' and 'T'
-        // Key strokes: 'pt'
-    };
-
-    combo_people {
-        bindings = <&people>;
-        key-positions = <25 140>; // 'A' and 'P'
-        // Key strokes: 'pe'
-    };
-
-    combo_picture {
-        bindings = <&picture>;
-        key-positions = <25 141>; // 'A' and 'C'
-        // Key strokes: 'pc'
-    };
-
-    combo_place {
-        bindings = <&place>;
-        key-positions = <25 142>; // 'A' and 'L'
-        // Key strokes: 'pl'
-    };
-
-    combo_plant {
-        bindings = <&plant>;
-        key-positions = <25 143>; // 'A' and 'N'
-        // Key strokes: 'pn'
-    };
-
-    combo_play {
-        bindings = <&play>;
-        key-positions = <25 144>; // 'A' and 'Y'
-        // Key strokes: 'py'
-    };
-
-    combo_point {
-        bindings = <&point>;
-        key-positions = <25 145>; // 'A' and 'P'
-        // Key strokes: 'po'
-    };
-
-    combo_question {
-        bindings = <&question>;
-        key-positions = <25 146>; // 'A' and 'Q'
-        // Key strokes: 'qt'
-    };
-
-    combo_quick {
-        bindings = <&quick>;
-        key-positions = <25 147>; // 'A' and 'K'
-        // Key strokes: 'qk'
-    };
-
-    combo_quickly {
-        bindings = <&quickly>;
-        key-positions = <25 148>; // 'A' and 'Y'
-        // Key strokes: 'qy'
-    };
-
-    combo_quite {
-        bindings = <&quite>;
-        key-positions = <25 149>; // 'A' and 'E'
-        // Key strokes: 'qe'
-    };
-
-    combo_read {
-        bindings = <&read>;
-        key-positions = <25 150>; // 'A' and 'D'
-        // Key strokes: 'rd'
-    };
-
-    combo_really {
-        bindings = <&really>;
-        key-positions = <25 151>; // 'A' and 'L'
-        // Key strokes: 'rl'
-    };
-
-    combo_right {
-        bindings = <&right>;
-        key-positions = <25 152>; // 'A' and 'G'
-        // Key strokes: 'rg'
-    };
-
-    combo_river {
-        bindings = <&river>;
-        key-positions = <25 153>; // 'A' and 'R'
-        // Key strokes: 'rv'
-    };
-
-    combo_said {
-        bindings = <&said>;
-        key-positions = <25 154>; // 'A' and 'D'
-        // Key strokes: 'sd'
-    };
-
-    combo_same {
-        bindings = <&same>;
-        key-positions = <25 155>; // 'A' and 'M'
-        // Key strokes: 'sm'
-    };
-
-    combo_school {
-        bindings = <&school>;
-        key-positions = <25 156>; // 'A' and 'C'
-        // Key strokes: 'sc'
-    };
-
-    combo_second {
-        bindings = <&second>;
-        key-positions = <25 157>; // 'A' and 'N'
-        // Key strokes: 'sn'
-    };
-
-    combo_sentence {
-        bindings = <&sentence>;
-        key-positions = <25 158>; // 'A' and 'T'
-        // Key strokes: 'st'
-    };
-
-    combo_should {
-        bindings = <&should>;
-        key-positions = <25 159>; // 'A' and 'D'
-        // Key strokes: 'sh'
-    };
-
-    combo_show {
-        bindings = <&show>;
-        key-positions = <25 160>; // 'A' and 'W'
-        // Key strokes: 'sw'
-    };
-
-    combo_side {
-        bindings = <&side>;
-        key-positions = <25 161>; // 'A' and 'S'
-        // Key strokes: 'si'
-    };
-
-    combo_small {
-        bindings = <&small>;
-        key-positions = <25 162>; // 'A' and 'L'
-        // Key strokes: 'sl'
-    };
-
-    combo_some {
-        bindings = <&some>;
-        key-positions = <25 163>; // 'A' and 'O'
-        // Key strokes: 'so'
-    };
-
-    combo_something {
-        bindings = <&something>;
-        key-positions = <25 164>; // 'A' and 'T'
-        // Key strokes: 'st'
-    };
-
-    combo_sometimes {
-        bindings = <&sometimes>;
-        key-positions = <25 165>; // 'A' and 'S'
-        // Key strokes: 'ss'
-    };
-
-    combo_soon {
-        bindings = <&soon>;
-        key-positions = <25 167>; // 'A' and 'N'
-        // Key strokes: 'sn'
-    };
-
-    combo_sound {
-        bindings = <&sound>;
-        key-positions = <25 168>; // 'A' and 'D'
-        // Key strokes: 'sd'
-    };
-
-    combo_spell {
-        bindings = <&spell>;
-        key-positions = <25 169>; // 'A' and 'P'
-        // Key strokes: 'sp'
-    };
-
-    combo_start {
-        bindings = <&start>;
-        key-positions = <25 170>; // 'A' and 'R'
-        // Key strokes: 'sr'
-    };
-
-    combo_state {
-        bindings = <&state>;
-        key-positions = <25 171>; // 'A' and 'T'
-        // Key strokes: 'st'
-    };
-
-    combo_stop {
-        bindings = <&stop>;
-        key-positions = <25 173>; // 'A' and 'P'
-        // Key strokes: 'sp'
-    };
-
-    combo_straight {
-        bindings = <&straight>;
-        key-positions = <25 174>; // 'A' and 'S'
-        // Key strokes: 'st'
-    };
-
-    combo_study {
-        bindings = <&study>;
-        key-positions = <25 175>; // 'A' and 'D'
-        // Key strokes: 'sd'
-    };
-
-
-
-    combo_take {
-        bindings = <&take>;
-        key-positions = <25 178>; // 'A' and 'K'
-        // Key strokes: 'tk'
-    };
-
-    combo_talk {
-        bindings = <&talk>;
-        key-positions = <25 179>; // 'A' and 'L'
-        // Key strokes: 'tl'
-    };
-
-
-
-    combo_technology {
-        bindings = <&technology>;
-        key-positions = <25 183>; // 'A' and 'H'
-        // Key strokes: 'th'
-    };
-
-
-
-    combo_these {
-        bindings = <&these>;
-        key-positions = <25 188>; // 'A' and 'E'
-        // Key strokes: 'th'
-    };
-
-
-    combo_time {
-        bindings = <&time>;
-        key-positions = <25 190>; // 'A' and 'M'
-        // Key strokes: 'tm'
-    };
-
-
-
-    combo_together {
-        bindings = <&together>;
-        key-positions = <25 193>; // 'A' and 'T'
-        // Key strokes: 'tg'
-    };
-
-    combo_tomorrow {
-        bindings = <&tomorrow>;
-        key-positions = <25 194>; // 'A' and 'M'
-        // Key strokes: 'tm'
-    };
-
-
-
-    combo_under {
-        bindings = <&under>;
-        key-positions = <25 198>; // 'A' and 'N'
-        // Key strokes: 'un'
-    };
-
-
-    combo_value {
-        bindings = <&value>;
-        key-positions = <25 202>; // 'A' and 'L'
-        // Key strokes: 'vl'
-    };
-
-    combo_where {
-        bindings = <&where>;
-        key-positions = <25 208>; // 'A' and 'R'
-        // Key strokes: 'wr'
-    };
-
-    combo_year {
-        bindings = <&year>;
-        key-positions = <25 212>; // 'A' and 'R'
-        // Key strokes: 'yr'
-    };
-
-
-    combo_ys {
-    bindings = <&yourself>; // Reference to the macro
-    key-positions = <110 120>; // Example key positions, adjust as needed
-    // Key strokes: 'YS'
-};
-
+        combo_about {
+            bindings = <&about>;
+            key-positions = <25 17>; // 'A' and 'B'
+            // Key strokes: 'ab'
+        };
+
+        combo_above {
+            bindings = <&above>;
+            key-positions = <25 41>; // 'A' and 'V'
+            // Key strokes: 'av'
+        };
+
+        combo_after {
+            bindings = <&after>;
+            key-positions = <25 15>; // 'A' and 'F'
+            // Key strokes: 'af'
+        };
+
+        combo_again {
+            bindings = <&again>;
+            key-positions = <25 29>; // 'A' and 'G'
+            // Key strokes: 'ag'
+        };
+
+        combo_along {
+            bindings = <&along>;
+            key-positions = <25 19>; // 'A' and 'L'
+            // Key strokes: 'al'
+        };
+
+        combo_also {
+            bindings = <&also>;
+            key-positions = <25 27>; // 'A' and 'S'
+            // Key strokes: 'as'
+        };
+
+        combo_always {
+            bindings = <&always>;
+            key-positions = <25 14>; // 'A' and 'W'
+            // Key strokes: 'aw'
+        };
+
+        combo_animal {
+            bindings = <&animal>;
+            key-positions = <25 31>; // 'A' and 'N'
+            // Key strokes: 'an'
+        };
+
+        combo_another {
+            bindings = <&another>;
+            key-positions = <25 26>; // 'A' and 'R'
+            // Key strokes: 'ar'
+        };
+
+        combo_answer {
+            bindings = <&answer>;
+            key-positions = <25 32>; // 'A' and 'E'
+            // Key strokes: 'ae'
+        };
+
+        combo_around {
+            bindings = <&around>;
+            key-positions = <25 40>; // 'A' and 'D'
+            // Key strokes: 'ad'
+        };
+
+        combo_away {
+            bindings = <&away>;
+            key-positions = <25 22>; // 'A' and 'Y'
+            // Key strokes: 'ay'
+        };
+
+        combo_because {
+            bindings = <&because>;
+            key-positions = <17>; // 'A' and 'C'
+            // Key strokes: 'bc'
+        };
+
+        combo_before {
+            bindings = <&before>;
+            key-positions = <17>; // 'A' and 'B'
+            // Key strokes: 'bf'
+        };
+
+        combo_began {
+            bindings = <&began>;
+            key-positions = <17>; // 'A' and 'G'
+            // Key strokes: 'bg'
+        };
+
+        combo_begin {
+            bindings = <&begin>;
+            key-positions = <17>; // 'A' and 'N'
+            // Key strokes: 'bn'
+        };
+
+        combo_being {
+            bindings = <&being>;
+            key-positions = <17>; // 'A' and 'E'
+            // Key strokes: 'be'
+        };
+
+        combo_below {
+            bindings = <&below>;
+            key-positions = <17>; // 'A' and 'W'
+            // Key strokes: 'bw'
+        };
+
+        combo_between {
+            bindings = <&between>;
+            key-positions = <17>; // 'A' and 'T'
+            // Key strokes: 'bt'
+        };
+
+        combo_carry {
+            bindings = <&carry>;
+            key-positions = <39>; // 'A' and 'Y'
+            // Key strokes: 'cy'
+        };
+
+        combo_change {
+            bindings = <&change>;
+            key-positions = <39>; // 'A' and 'C'
+            // Key strokes: 'ch'
+        };
+
+        combo_children {
+            bindings = <&children>;
+            key-positions = <39>; // 'A' and 'L'
+            // Key strokes: 'cl'
+        };
+
+        combo_close {
+            bindings = <&close>;
+            key-positions = <39>; // 'A' and 'C'
+            // Key strokes: 'ce'
+        };
+
+        combo_could {
+            bindings = <&could>;
+            key-positions = <39>; // 'A' and 'D'
+            // Key strokes: 'cd'
+        };
+
+        combo_country {
+            bindings = <&country>;
+            key-positions = <39>; // 'A' and 'N'
+            // Key strokes: 'cn'
+        };
+
+        combo_different {
+            bindings = <&different>;
+            key-positions = <40>; // 'A' and 'F'
+            // Key strokes: 'df'
+        };
+
+        combo_does {
+            bindings = <&does>;
+            key-positions = <40>; // 'A' and 'D'
+            // Key strokes: 'do'
+        };
+
+        combo_dont {
+            bindings = <&dont>;
+            key-positions = <40>; // 'A' and 'N'
+            // Key strokes: 'dn'
+        };
+
+        combo_down {
+            bindings = <&down>;
+            key-positions = <40>; // 'A' and 'W'
+            // Key strokes: 'dw'
+        };
+
+        combo_earth {
+            bindings = <&earth>;
+            key-positions = <58 32>; // 'A' and 'E'
+            // Key strokes: 'ea'
+        };
+
+        combo_enough {
+            bindings = <&enough>;
+            key-positions = <59 32>; // 'A' and 'N'
+            // Key strokes: 'en'
+        };
+
+        combo_even {
+            bindings = <&even>;
+            key-positions = <60 32>; // 'A' and 'V'
+            // Key strokes: 'ev'
+        };
+
+        combo_every {
+            bindings = <&every>;
+            key-positions = <61 32>; // 'A' and 'Y'
+            // Key strokes: 'ey'
+        };
+
+        combo_example {
+            bindings = <&example>;
+            key-positions = <62 32>; // 'A' and 'E'
+            // Key strokes: 'ex'
+        };
+
+        combo_family {
+            bindings = <&family>;
+            key-positions = <63 15>; // 'A' and 'M'
+            // Key strokes: 'fm'
+        };
+
+        combo_father {
+            bindings = <&father>;
+            key-positions = <64 15>; // 'A' and 'F'
+            // Key strokes: 'fa'
+        };
+
+        combo_first {
+            bindings = <&first>;
+            key-positions = <67 15>; // 'A' and 'R'
+            // Key strokes: 'fr'
+        };
+
+        combo_follow {
+            bindings = <&follow>;
+            key-positions = <68 15>; // 'A' and 'L'
+            // Key strokes: 'fo'
+        };
+
+        combo_form {
+            bindings = <&form>;
+            key-positions = <70 15>; // 'A' and 'M'
+            // Key strokes: 'fm'
+        };
+
+        combo_found {
+            bindings = <&found>;
+            key-positions = <71 15>; // 'A' and 'D'
+            // Key strokes: 'fu'
+        };
+
+        combo_four {
+            bindings = <&four>;
+            key-positions = <72 15>; // 'A' and 'R'
+            // Key strokes: 'fr'
+        };
+
+        combo_from {
+            bindings = <&from>;
+            key-positions = <73 15>; // 'A' and 'M'
+            // Key strokes: 'rm'
+        };
+
+        combo_give {
+            bindings = <&give>;
+            key-positions = <75 29>; // 'A' and 'V'
+            // Key strokes: 'gv'
+        };
+
+        combo_good {
+            bindings = <&good>;
+            key-positions = <76 29>; // 'A' and 'G'
+            // Key strokes: 'gd'
+        };
+
+        combo_great {
+            bindings = <&great>;
+            key-positions = <77 29>; // 'A' and 'T'
+            // Key strokes: 'gt'
+        };
+
+        combo_group {
+            bindings = <&group>;
+            key-positions = <78 29>; // 'A' and 'P'
+            // Key strokes: 'gp'
+        };
+
+        combo_grow {
+            bindings = <&grow>;
+            key-positions = <79 29>; // 'A' and 'W'
+            // Key strokes: 'gw'
+        };
+
+        combo_hand {
+            bindings = <&hand>;
+            key-positions = <80 45>; // 'A' and 'H'
+            // Key strokes: 'ha'
+        };
+
+        combo_hard {
+            bindings = <&hard>;
+            key-positions = <81 45>; // 'A' and 'R'
+            // Key strokes: 'hr'
+        };
+
+        combo_have {
+            bindings = <&have>;
+            key-positions = <82 45>; // 'A' and 'V'
+            // Key strokes: 'hv'
+        };
+
+        combo_head {
+            bindings = <&head>;
+            key-positions = <83 45>; // 'A' and 'D'
+            // Key strokes: 'hd'
+        };
+
+        combo_hear {
+            bindings = <&hear>;
+            key-positions = <84 45>; // 'A' and 'E'
+            // Key strokes: 'he'
+        };
+
+        combo_hello {
+            bindings = <&hello>;
+            key-positions = <85 45>; // 'A' and 'L'
+            // Key strokes: 'hl'
+        };
+
+        combo_home {
+            bindings = <&home>;
+            key-positions = <88 45>; // 'A' and 'M'
+            // Key strokes: 'hm'
+        };
+
+        combo_house {
+            bindings = <&house>;
+            key-positions = <25 89 45>; // 'A' and 'H'
+            // Key strokes: 'ho'
+        };
+
+        combo_idea {
+            bindings = <&idea>;
+            key-positions = <90 33>; // 'A' and 'D'
+            // Key strokes: 'id'
+        };
+
+        combo_important {
+            bindings = <&important>;
+            key-positions = <91 33>; // 'A' and 'T'
+            // Key strokes: 'im'
+        };
+
+        combo_into {
+            bindings = <&into>;
+            key-positions = <92 33>; // 'A' and 'N'
+            // Key strokes: 'in'
+        };
+
+        combo_just {
+            bindings = <&just>;
+            key-positions = <93 18>; // 'A' and 'T'
+            // Key strokes: 'jt'
+        };
+
+        combo_keep {
+            bindings = <&keep>;
+            key-positions = <94 44>; // 'A' and 'K'
+            // Key strokes: 'kp'
+        };
+
+        combo_kind {
+            bindings = <&kind>;
+            key-positions = <95 44>; // 'A' and 'D'
+            // Key strokes: 'kd'
+        };
+
+        combo_know {
+            bindings = <&know>;
+            key-positions = <96 44>; // 'A' and 'W'
+            // Key strokes: 'kw'
+        };
+
+        combo_large {
+            bindings = <&large>;
+            key-positions = <97 19>; // 'A' and 'L'
+            // Key strokes: 'lg'
+        };
+
+        combo_last {
+            bindings = <&last>;
+            key-positions = <98 19>; // 'A' and 'T'
+            // Key strokes: 'lt'
+        };
+
+        combo_later {
+            bindings = <&later>;
+            key-positions = <99 19>; // 'A' and 'R'
+            // Key strokes: 'lr'
+        };
+
+        combo_learn {
+            bindings = <&learn>;
+            key-positions = <100 19>; // 'A' and 'E'
+            // Key strokes: 'le'
+        };
+
+        combo_leave {
+            bindings = <&leave>;
+            key-positions = <101 19>; // 'A' and 'V'
+            // Key strokes: 'lv'
+        };
+
+        combo_letter {
+            bindings = <&letter>;
+            key-positions = <103 19>; // 'A' and 'L'
+            // Key strokes: 'll'
+        };
+
+        combo_life {
+            bindings = <&life>;
+            key-positions = <104 19>; // 'A' and 'F'
+            // Key strokes: 'lf'
+        };
+
+        combo_light {
+            bindings = <&light>;
+            key-positions = <105 19>; // 'A' and 'T'
+            // Key strokes: 'lt'
+        };
+
+        combo_like {
+            bindings = <&like>;
+            key-positions = <106 19>; // 'A' and 'K'
+            // Key strokes: 'lk'
+        };
+
+        combo_line {
+            bindings = <&line>;
+            key-positions = <107 19>; // 'A' and 'N'
+            // Key strokes: 'ln'
+        };
+
+        combo_little {
+            bindings = <&little>;
+            key-positions = <109 19>; // 'A' and 'T'
+            // Key strokes: 'lt'
+        };
+
+        combo_live {
+            bindings = <&live>;
+            key-positions = <110 19>; // 'A' and 'V'
+            // Key strokes: 'lv'
+        };
+
+        combo_long {
+            bindings = <&long>;
+            key-positions = <111 19>; // 'A' and 'G'
+            // Key strokes: 'lo'
+        };
+
+        combo_make {
+            bindings = <&make>;
+            key-positions = <113 30>; // 'A' and 'K'
+            // Key strokes: 'mk'
+        };
+
+        combo_many {
+            bindings = <&many>;
+            key-positions = <114 30>; // 'A' and 'N'
+            // Key strokes: 'mn'
+        };
+
+        combo_mean {
+            bindings = <&mean>;
+            key-positions = <115 30>; // 'A' and 'E'
+            // Key strokes: 'me'
+        };
+
+        combo_might {
+            bindings = <&might>;
+            key-positions = <116 30>; // 'A' and 'G'
+            // Key strokes: 'mg'
+        };
+
+        combo_mile {
+            bindings = <&mile>;
+            key-positions = <117 30>; // 'A' and 'L'
+            // Key strokes: 'ml'
+        };
+
+        combo_more {
+            bindings = <&more>;
+            key-positions = <119 30>; // 'A' and 'R'
+            // Key strokes: 'mr'
+        };
+
+        combo_most {
+            bindings = <&most>;
+            key-positions = <120 30>; // 'A' and 'O'
+            // Key strokes: 'mo'
+        };
+
+        combo_mother {
+            bindings = <&mother>;
+            key-positions = <121 30>; // 'A' and 'H'
+            // Key strokes: 'mh'
+        };
+
+        combo_mountain {
+            bindings = <&mountain>;
+            key-positions = <122 30>; // 'A' and 'T'
+            // Key strokes: 'mt'
+        };
+
+        combo_move {
+            bindings = <&move>;
+            key-positions = <123 30>; // 'A' and 'V'
+            // Key strokes: 'mv'
+        };
+
+        combo_much {
+            bindings = <&much>;
+            key-positions = <124 30>; // 'A' and 'C'
+            // Key strokes: 'mc'
+        };
+
+        combo_must {
+            bindings = <&must>;
+            key-positions = <125 30>; // 'A' and 'T'
+            // Key strokes: 'mu'
+        };
+
+        combo_name {
+            bindings = <&name>;
+            key-positions = <126 31>; // 'A' and 'M'
+            // Key strokes: 'nm'
+        };
+
+        combo_near {
+            bindings = <&near>;
+            key-positions = <127 31>; // 'A' and 'R'
+            // Key strokes: 'nr'
+        };
+
+        combo_never {
+            bindings = <&never>;
+            key-positions = <129 31>; // 'A' and 'V'
+            // Key strokes: 'nv'
+        };
+
+        combo_next {
+            bindings = <&next>;
+            key-positions = <130 31>; // 'A' and 'X'
+            // Key strokes: 'nx'
+        };
+
+        combo_night {
+            bindings = <&night>;
+            key-positions = <131 31>; // 'A' and 'G'
+            // Key strokes: 'ng'
+        };
+
+        combo_number {
+            bindings = <&number>;
+            key-positions = <132 31>; // 'A' and 'U'
+            // Key strokes: 'nu'
+        };
+
+        combo_often {
+            bindings = <&often>;
+            key-positions = <133 34>; // 'A' and 'F'
+            // Key strokes: 'of'
+        };
+
+        combo_open {
+            bindings = <&open>;
+            key-positions = <134 34>; // 'A' and 'P'
+            // Key strokes: 'op'
+        };
+
+        combo_other {
+            bindings = <&other>;
+            key-positions = <135 34>; // 'A' and 'T'
+            // Key strokes: 'ot'
+        };
+
+        combo_over {
+            bindings = <&over>;
+            key-positions = <136 34>; // 'A' and 'V'
+            // Key strokes: 'ov'
+        };
+
+        combo_paper {
+            bindings = <&paper>;
+            key-positions = <138 16>; // 'A' and 'P'
+            // Key strokes: 'pp'
+        };
+
+        combo_part {
+            bindings = <&part>;
+            key-positions = <139 16>; // 'A' and 'T'
+            // Key strokes: 'pt'
+        };
+
+        combo_people {
+            bindings = <&people>;
+            key-positions = <140 16>; // 'A' and 'P'
+            // Key strokes: 'pe'
+        };
+
+        combo_picture {
+            bindings = <&picture>;
+            key-positions = <141 16>; // 'A' and 'C'
+            // Key strokes: 'pc'
+        };
+
+        combo_place {
+            bindings = <&place>;
+            key-positions = <142 16>; // 'A' and 'L'
+            // Key strokes: 'pl'
+        };
+
+        combo_plant {
+            bindings = <&plant>;
+            key-positions = <143 16>; // 'A' and 'N'
+            // Key strokes: 'pn'
+        };
+
+        combo_play {
+            bindings = <&play>;
+            key-positions = <144 16>; // 'A' and 'Y'
+            // Key strokes: 'py'
+        };
+
+        combo_point {
+            bindings = <&point>;
+            key-positions = <145 16>; // 'A' and 'P'
+            // Key strokes: 'po'
+        };
+
+        combo_question {
+            bindings = <&question>;
+            key-positions = <146 13>; // 'A' and 'Q'
+            // Key strokes: 'qt'
+        };
+
+        combo_quick {
+            bindings = <&quick>;
+            key-positions = <147 13>; // 'A' and 'K'
+            // Key strokes: 'qk'
+        };
+
+        combo_quickly {
+            bindings = <&quickly>;
+            key-positions = <148 13>; // 'A' and 'Y'
+            // Key strokes: 'qy'
+        };
+
+        combo_quite {
+            bindings = <&quite>;
+            key-positions = <149 13>; // 'A' and 'E'
+            // Key strokes: 'qe'
+        };
+
+        combo_read {
+            bindings = <&read>;
+            key-positions = <150 26>; // 'A' and 'D'
+            // Key strokes: 'rd'
+        };
+
+        combo_really {
+            bindings = <&really>;
+            key-positions = <151 26>; // 'A' and 'L'
+            // Key strokes: 'rl'
+        };
+
+        combo_right {
+            bindings = <&right>;
+            key-positions = <152 26>; // 'A' and 'G'
+            // Key strokes: 'rg'
+        };
+
+        combo_river {
+            bindings = <&river>;
+            key-positions = <153 26>; // 'A' and 'R'
+            // Key strokes: 'rv'
+        };
+
+        combo_said {
+            bindings = <&said>;
+            key-positions = <154 27>; // 'A' and 'D'
+            // Key strokes: 'sd'
+        };
+
+        combo_same {
+            bindings = <&same>;
+            key-positions = <155 27>; // 'A' and 'M'
+            // Key strokes: 'sm'
+        };
+
+        combo_school {
+            bindings = <&school>;
+            key-positions = <156 27>; // 'A' and 'C'
+            // Key strokes: 'sc'
+        };
+
+        combo_second {
+            bindings = <&second>;
+            key-positions = <157 27>; // 'A' and 'N'
+            // Key strokes: 'sn'
+        };
+
+        combo_sentence {
+            bindings = <&sentence>;
+            key-positions = <158 27>; // 'A' and 'T'
+            // Key strokes: 'st'
+        };
+
+        combo_should {
+            bindings = <&should>;
+            key-positions = <159 27>; // 'A' and 'D'
+            // Key strokes: 'sh'
+        };
+
+        combo_small {
+            bindings = <&small>;
+            key-positions = <162 27>; // 'A' and 'L'
+            // Key strokes: 'sl'
+        };
+
+        combo_something {
+            bindings = <&something>;
+            key-positions = <164 27>; // 'A' and 'T'
+            // Key strokes: 'st'
+        };
+
+        combo_sometimes {
+            bindings = <&sometimes>;
+            key-positions = <165 27>; // 'A' and 'S'
+            // Key strokes: 'ss'
+        };
+
+        combo_soon {
+            bindings = <&soon>;
+            key-positions = <167 27>; // 'A' and 'N'
+            // Key strokes: 'sn'
+        };
+
+        combo_sound {
+            bindings = <&sound>;
+            key-positions = <168 27>; // 'A' and 'D'
+            // Key strokes: 'sd'
+        };
+
+        combo_spell {
+            bindings = <&spell>;
+            key-positions = <169 27>; // 'A' and 'P'
+            // Key strokes: 'sp'
+        };
+
+        combo_start {
+            bindings = <&start>;
+            key-positions = <170 27>; // 'A' and 'R'
+            // Key strokes: 'sr'
+        };
+
+        combo_state {
+            bindings = <&state>;
+            key-positions = <171 27>; // 'A' and 'T'
+            // Key strokes: 'st'
+        };
+
+        combo_stop {
+            bindings = <&stop>;
+            key-positions = <173 27>; // 'A' and 'P'
+            // Key strokes: 'sp'
+        };
+
+        combo_straight {
+            bindings = <&straight>;
+            key-positions = <174 27>; // 'A' and 'S'
+            // Key strokes: 'st'
+        };
+
+        combo_study {
+            bindings = <&study>;
+            key-positions = <175 27>; // 'A' and 'D'
+            // Key strokes: 'sd'
+        };
+
+        combo_talk {
+            bindings = <&talk>;
+            key-positions = <179 28>; // 'A' and 'L'
+            // Key strokes: 'tl'
+        };
+
+        combo_technology {
+            bindings = <&technology>;
+            key-positions = <183 28>; // 'A' and 'H'
+            // Key strokes: 'th'
+        };
+
+        combo_these {
+            bindings = <&these>;
+            key-positions = <188 28>; // 'A' and 'E'
+            // Key strokes: 'th'
+        };
+
+        combo_time {
+            bindings = <&time>;
+            key-positions = <190 28>; // 'A' and 'M'
+            // Key strokes: 'tm'
+        };
+
+        combo_together {
+            bindings = <&together>;
+            key-positions = <193 28>; // 'A' and 'T'
+            // Key strokes: 'tg'
+        };
+
+        combo_tomorrow {
+            bindings = <&tomorrow>;
+            key-positions = <194 28>; // 'A' and 'M'
+            // Key strokes: 'tm'
+        };
+
+        combo_under {
+            bindings = <&under>;
+            key-positions = <198 20>; // 'A' and 'N'
+            // Key strokes: 'un'
+        };
+
+        combo_value {
+            bindings = <&value>;
+            key-positions = <202 41>; // 'A' and 'L'
+            // Key strokes: 'vl'
+        };
+
+        combo_where {
+            bindings = <&where>;
+            key-positions = <208 13>; // 'A' and 'R'
+            // Key strokes: 'wr'
+        };
+
+        combo_year {
+            bindings = <&year>;
+            key-positions = <212 22>; // 'A' and 'R'
+            // Key strokes: 'yr'
+        };
+
+        combo_ys {
+            bindings = <&yourself>; // Reference to the macro
+            key-positions = <110 120 22>; // Example key positions, adjust as needed
+            // Key strokes: 'YS'
+        };
     };
 
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
-              //  0   1  2  3 4   5            6   7  8 9  10 11
-              //  12 13 14 15 16 17            18 19 20 21 22 23
-              //  24 25 26 27 28 29            30 31 32 33 34 35
-              //  36 37 38 39 40 41            42 43 44 45 46 47
-              //          48 49 50 51    52 53   54 55 56 57
-
+            //  0   1  2  3 4   5            6   7  8 9  10 11
+            //  12 13 14 15 16 17            18 19 20 21 22 23
+            //  24 25 26 27 28 29            30 31 32 33 34 35
+            //  36 37 38 39 40 41            42 43 44 45 46 47
+            //          48 49 50 51    52 53   54 55 56 57
 
             label = "Base";
             bindings = <
